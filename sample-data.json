@@ -1,0 +1,47 @@
+[
+  {
+    "id": "place-1",
+    "name": "Konnopke's Imbiss",
+    "address": "Schönhauser Allee 44B, 10435 Berlin",
+    "coordinates": { "lat": 52.5415, "lng": 13.4133 },
+    "rating": 4.4,
+    "reservationUrl": null,
+    "placeUrl": "https://maps.google.com/?cid=123"
+  },
+  {
+    "id": "place-2",
+    "name": "Clärchens Ballhaus",
+    "address": "Auguststraße 24, 10117 Berlin",
+    "coordinates": { "lat": 52.5284, "lng": 13.3949 },
+    "rating": 4.5,
+    "reservationUrl": "https://claerchens-ballhaus.de",
+    "placeUrl": "https://maps.google.com/?cid=456"
+  },
+  {
+    "id": "place-3",
+    "name": "Burgermeister",
+    "address": "Oberbaumstraße 8, 10997 Berlin",
+    "coordinates": { "lat": 52.5012, "lng": 13.4423 },
+    "rating": 4.3,
+    "reservationUrl": null,
+    "placeUrl": "https://maps.google.com/?cid=789"
+  },
+  {
+    "id": "place-4",
+    "name": "Prater Garten",
+    "address": "Kastanienallee 7-9, 10435 Berlin",
+    "coordinates": { "lat": 52.5404, "lng": 13.4134 },
+    "rating": 4.4,
+    "reservationUrl": null,
+    "placeUrl": "https://maps.google.com/?cid=101"
+  },
+  {
+    "id": "place-5",
+    "name": "Markthalle Neun",
+    "address": "Eisenbahnstraße 42/43, 10997 Berlin",
+    "coordinates": { "lat": 52.5003, "lng": 13.4307 },
+    "rating": 4.5,
+    "reservationUrl": null,
+    "placeUrl": "https://maps.google.com/?cid=102"
+  }
+]
