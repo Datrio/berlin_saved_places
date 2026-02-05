@@ -10,6 +10,7 @@ import {
   defaultFilterState,
   defaultSortState,
 } from '@/types';
+import { defaultPlaces } from '@/data/places';
 import * as storage from '@/lib/storage';
 
 interface PlacesContextType {
@@ -33,14 +34,12 @@ interface PlacesContextType {
   setView: (view: 'list' | 'map') => void;
   setSelectedPlaceId: (id: string | null) => void;
   updateAnnotation: (placeId: string, annotation: Partial<UserAnnotation>) => void;
-  importPlaces: (places: Place[]) => void;
-  exportData: () => { places: Place[]; annotations: Record<string, UserAnnotation> };
 }
 
 const PlacesContext = createContext<PlacesContextType | undefined>(undefined);
 
 export function PlacesProvider({ children }: { children: React.ReactNode }) {
-  const [places, setPlaces] = useState<Place[]>([]);
+  const [places] = useState<Place[]>(defaultPlaces);
   const [annotations, setAnnotations] = useState<Record<string, UserAnnotation>>({});
   const [filters, setFilters] = useState<FilterState>(defaultFilterState);
   const [sort, setSort] = useState<SortState>(defaultSortState);
@@ -48,9 +47,8 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Load data from localStorage on mount
+  // Load annotations from localStorage on mount
   useEffect(() => {
-    setPlaces(storage.getPlaces());
     setAnnotations(storage.getAnnotations());
     setIsLoading(false);
   }, []);
@@ -155,17 +153,6 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
-  // Import places
-  const importPlacesHandler = useCallback((newPlaces: Place[]) => {
-    storage.savePlaces(newPlaces);
-    setPlaces(newPlaces);
-  }, []);
-
-  // Export data
-  const exportData = useCallback(() => {
-    return storage.exportAllData();
-  }, []);
-
   const value: PlacesContextType = {
     places,
     annotations,
@@ -182,8 +169,6 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     setView,
     setSelectedPlaceId,
     updateAnnotation,
-    importPlaces: importPlacesHandler,
-    exportData,
   };
 
   return (
