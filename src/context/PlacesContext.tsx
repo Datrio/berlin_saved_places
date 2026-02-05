@@ -11,6 +11,7 @@ import {
   defaultSortState,
 } from '@/types';
 import { defaultPlaces } from '@/data/places';
+import { defaultAnnotations } from '@/data/defaultAnnotations';
 import * as storage from '@/lib/storage';
 
 interface PlacesContextType {
@@ -47,9 +48,23 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Load annotations from localStorage on mount
+  // Load annotations from localStorage on mount, merged with defaults
   useEffect(() => {
-    setAnnotations(storage.getAnnotations());
+    const savedAnnotations = storage.getAnnotations();
+    // Merge: user saved annotations override defaults
+    const merged = { ...defaultAnnotations };
+    Object.keys(savedAnnotations).forEach(key => {
+      merged[key] = {
+        ...defaultAnnotations[key],
+        ...savedAnnotations[key],
+        // Merge labels arrays, keeping unique values
+        labels: [...new Set([
+          ...(defaultAnnotations[key]?.labels || []),
+          ...(savedAnnotations[key]?.labels || [])
+        ])]
+      };
+    });
+    setAnnotations(merged);
     setIsLoading(false);
   }, []);
 
