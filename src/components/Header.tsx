@@ -6,35 +6,35 @@ export function Header() {
   const { view, setView, filteredPlaces, places } = usePlaces();
 
   return (
-    <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-6 py-4">
+    <header className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-6 py-4 shadow-lg">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-2xl font-bold text-white">
             Berlin Places
           </h1>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-indigo-100">
             {filteredPlaces.length} of {places.length} places
           </p>
         </div>
 
         <div className="flex items-center gap-4">
-          <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+          <div className="flex bg-white/20 backdrop-blur-sm rounded-lg p-1">
             <button
               onClick={() => setView('list')}
-              className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+              className={`px-4 py-2 text-sm font-medium rounded-md transition-all ${
                 view === 'list'
-                  ? 'bg-white dark:bg-gray-600 text-gray-900 dark:text-white shadow-sm'
-                  : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                  ? 'bg-white text-indigo-600 shadow-sm'
+                  : 'text-white hover:bg-white/10'
               }`}
             >
               List
             </button>
             <button
               onClick={() => setView('map')}
-              className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+              className={`px-4 py-2 text-sm font-medium rounded-md transition-all ${
                 view === 'map'
-                  ? 'bg-white dark:bg-gray-600 text-gray-900 dark:text-white shadow-sm'
-                  : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                  ? 'bg-white text-indigo-600 shadow-sm'
+                  : 'text-white hover:bg-white/10'
               }`}
             >
               Map

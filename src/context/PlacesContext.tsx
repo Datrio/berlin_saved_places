@@ -43,7 +43,7 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
   const [annotations, setAnnotations] = useState<Record<string, UserAnnotation>>({});
   const [filters, setFilters] = useState<FilterState>(defaultFilterState);
   const [sort, setSort] = useState<SortState>(defaultSortState);
-  const [view, setView] = useState<'list' | 'map'>('list');
+  const [view, setView] = useState<'list' | 'map'>('map');
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
