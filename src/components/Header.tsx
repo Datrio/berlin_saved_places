@@ -1,6 +1,7 @@
 'use client';
 
 import { usePlaces } from '@/context/PlacesContext';
+import { ImportExport } from './ImportExport';
 
 export function Header() {
   const { view, setView, filteredPlaces, places } = usePlaces();
@@ -18,6 +19,7 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-4">
+          <ImportExport />
           <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
             <button
               onClick={() => setView('list')}
