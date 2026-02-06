@@ -113,7 +113,20 @@ const CATEGORY_COLORS: Record<string, { bg: string; bgActive: string; icon: stri
 };
 
 export function FiltersSidebar() {
-  const { filters, setFilters, allLabels, allDistricts } = usePlaces();
+  const { filters, setFilters, allLabels, allDistricts, placesWithAnnotations } = usePlaces();
+
+  // Count places by category
+  const categoryCounts = placesWithAnnotations.reduce((acc, place) => {
+    const cat = place.category || 'other';
+    acc[cat] = (acc[cat] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+
+  // Count places by district
+  const districtCounts = placesWithAnnotations.reduce((acc, place) => {
+    acc[place.district] = (acc[place.district] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
 
   const handleLabelToggle = (label: string) => {
     const newLabels = filters.labels.includes(label)
@@ -183,7 +196,7 @@ export function FiltersSidebar() {
                   : colors.bg
               }`}
             >
-              {colors.icon} {category.charAt(0).toUpperCase() + category.slice(1)}
+              {colors.icon} {category.charAt(0).toUpperCase() + category.slice(1)} ({categoryCounts[category] || 0})
             </button>
           ))}
         </div>
@@ -213,7 +226,7 @@ export function FiltersSidebar() {
                     : colors
                 }`}
               >
-                {district}
+                {district} ({districtCounts[district] || 0})
               </button>
             );
           })}
