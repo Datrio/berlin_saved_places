@@ -97,7 +97,7 @@ const createUserLocationIcon = (L: typeof import('leaflet')) => {
 };
 
 export function MapView() {
-  const { filteredPlaces, setSelectedPlaceId, userLocation } = usePlaces();
+  const { filteredPlaces, userLocation } = usePlaces();
   const [isClient, setIsClient] = useState(false);
   const [categoryIcons, setCategoryIcons] = useState<Record<string, unknown> | null>(null);
   const [userLocationIcon, setUserLocationIcon] = useState<unknown>(null);
@@ -179,26 +179,11 @@ export function MapView() {
             position={[place.coordinates.lat, place.coordinates.lng]}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             icon={categoryIcons ? (categoryIcons[place.categories?.[0] || 'default'] || categoryIcons.default) as any : undefined}
-            eventHandlers={{
-              click: () => setSelectedPlaceId(place.id),
-            }}
           >
             <Popup>
               <div className="min-w-[150px]">
                 <h3 className="font-semibold">{place.name}</h3>
                 <p className="text-sm text-gray-600">{place.address}</p>
-                {place.rating && (
-                  <p className="text-sm">★ {place.rating.toFixed(1)}</p>
-                )}
-                {place.annotation?.score && (
-                  <p className="text-sm">My score: {place.annotation.score}/5</p>
-                )}
-                <button
-                  onClick={() => setSelectedPlaceId(place.id)}
-                  className="mt-2 text-sm text-blue-600 hover:underline"
-                >
-                  View details
-                </button>
               </div>
             </Popup>
           </Marker>

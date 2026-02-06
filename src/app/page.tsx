@@ -5,12 +5,11 @@ import { FiltersSidebar } from '@/components/FiltersSidebar';
 import { PlacesList } from '@/components/PlacesList';
 import { SearchBar } from '@/components/SearchBar';
 import { SortControl } from '@/components/SortControl';
-import { PlaceDetail } from '@/components/PlaceDetail';
 import { MapView } from '@/components/MapView';
 import { usePlaces } from '@/context/PlacesContext';
 
 export default function Home() {
-  const { view, selectedPlaceId } = usePlaces();
+  const { view } = usePlaces();
 
   return (
     <div className="h-screen bg-gray-50 dark:bg-gray-900 flex flex-col overflow-hidden">
@@ -30,8 +29,6 @@ export default function Home() {
           {view === 'list' ? <PlacesList /> : <MapView />}
         </main>
       </div>
-
-      {selectedPlaceId && <PlaceDetail />}
     </div>
   );
 }

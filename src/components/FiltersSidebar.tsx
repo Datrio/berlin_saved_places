@@ -194,63 +194,6 @@ export function FiltersSidebar() {
         </div>
       </div>
 
-      {/* Rating Filters */}
-      <div className="mb-4 pb-4 border-b border-slate-200 dark:border-gray-700">
-        <div className="mb-3">
-          <div className="flex items-center justify-between mb-1">
-            <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Google Rating</span>
-            <span className="text-sm font-bold text-emerald-600">{filters.minGoogleRating}+</span>
-          </div>
-          <input
-            type="range"
-            min="0"
-            max="5"
-            step="0.5"
-            value={filters.minGoogleRating}
-            onChange={(e) => setFilters({ ...filters, minGoogleRating: parseFloat(e.target.value) })}
-            className="w-full accent-emerald-500"
-          />
-        </div>
-
-        <div className="mb-3">
-          <div className="flex items-center justify-between mb-1">
-            <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">My Score</span>
-            <span className="text-sm font-bold text-purple-600">{filters.minScore}+</span>
-          </div>
-          <input
-            type="range"
-            min="0"
-            max="5"
-            step="1"
-            value={filters.minScore}
-            onChange={(e) => setFilters({ ...filters, minScore: parseInt(e.target.value) })}
-            className="w-full accent-purple-500"
-          />
-        </div>
-
-        <div className="flex gap-2">
-          <button
-            onClick={() => setFilters({ ...filters, hasNotes: filters.hasNotes === true ? null : true })}
-            className={`text-xs px-2.5 py-1 rounded-full transition-all font-medium flex-1 ${
-              filters.hasNotes === true
-                ? 'bg-amber-400 text-white'
-                : 'bg-white dark:bg-gray-700 text-slate-500 border border-slate-200 dark:border-gray-600'
-            }`}
-          >
-            Has notes
-          </button>
-          <button
-            onClick={() => setFilters({ ...filters, hasNotes: filters.hasNotes === false ? null : false })}
-            className={`text-xs px-2.5 py-1 rounded-full transition-all font-medium flex-1 ${
-              filters.hasNotes === false
-                ? 'bg-slate-400 text-white'
-                : 'bg-white dark:bg-gray-700 text-slate-500 border border-slate-200 dark:border-gray-600'
-            }`}
-          >
-            No notes
-          </button>
-        </div>
-      </div>
 
       {/* Tag Categories */}
       <div className="space-y-1">
