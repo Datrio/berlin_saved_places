@@ -75,14 +75,15 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  // Get all unique labels
+  // Get all unique labels from current places (not just annotations)
   const allLabels = useMemo(() => {
     const labelsSet = new Set<string>();
-    Object.values(annotations).forEach(annotation => {
-      annotation.labels.forEach(label => labelsSet.add(label));
+    places.forEach(place => {
+      const annotation = annotations[place.id];
+      annotation?.labels.forEach(label => labelsSet.add(label));
     });
     return Array.from(labelsSet).sort();
-  }, [annotations]);
+  }, [places, annotations]);
 
   // Combine places with their annotations and computed district
   const placesWithAnnotations = useMemo((): PlaceWithDistrict[] => {
