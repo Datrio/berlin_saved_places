@@ -18,15 +18,17 @@ export default function Home() {
       <div className="flex flex-1 min-h-0">
         <FiltersSidebar />
 
-        <main className="flex-1 p-6 overflow-y-auto">
-          <div className="flex items-center gap-4 mb-6">
+        <main className={`flex-1 p-6 flex flex-col ${view === 'list' ? 'overflow-y-auto' : 'overflow-hidden'}`}>
+          <div className="flex items-center gap-4 mb-4 flex-shrink-0">
             <div className="flex-1">
               <SearchBar />
             </div>
             <SortControl />
           </div>
 
-          {view === 'list' ? <PlacesList /> : <MapView />}
+          <div className="flex-1 min-h-0">
+            {view === 'list' ? <PlacesList /> : <MapView />}
+          </div>
         </main>
       </div>
     </div>
