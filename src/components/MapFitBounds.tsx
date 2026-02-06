@@ -1,18 +1,30 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 import { useMap } from 'react-leaflet';
 import L from 'leaflet';
 
 interface MapFitBoundsProps {
-  places: { coordinates: { lat: number; lng: number } }[];
+  places: { id: string; coordinates: { lat: number; lng: number } }[];
 }
 
 export function MapFitBounds({ places }: MapFitBoundsProps) {
   const map = useMap();
-  const prevPlacesLength = useRef(places.length);
+
+  // Create a stable key from place IDs to detect actual changes
+  const placesKey = useMemo(() => {
+    return places.map(p => p.id).sort().join(',');
+  }, [places]);
+
+  const prevPlacesKey = useRef(placesKey);
 
   useEffect(() => {
+    // Only fit bounds if the places actually changed
+    if (prevPlacesKey.current === placesKey) {
+      return;
+    }
+    prevPlacesKey.current = placesKey;
+
     if (places.length === 0) {
       // No places - center on Berlin
       map.setView([52.52, 13.405], 12);
@@ -34,9 +46,7 @@ export function MapFitBounds({ places }: MapFitBoundsProps) {
       padding: [50, 50],
       maxZoom: 15,
     });
-
-    prevPlacesLength.current = places.length;
-  }, [places, map]);
+  }, [places, placesKey, map]);
 
   return null;
 }
