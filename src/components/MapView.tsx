@@ -26,6 +26,12 @@ const Popup = dynamic(
   { ssr: false }
 );
 
+// Dynamically import the FitBounds component that uses useMap hook
+const FitBoundsComponent = dynamic(
+  () => import('./MapFitBounds').then((mod) => mod.MapFitBounds),
+  { ssr: false }
+);
+
 // Category colors and icons
 const CATEGORY_CONFIG: Record<string, { color: string; emoji: string }> = {
   food: { color: '#f97316', emoji: '🍽️' },    // orange
@@ -117,6 +123,7 @@ export function MapView() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <FitBoundsComponent places={filteredPlaces} />
         {filteredPlaces.map((place) => (
           <Marker
             key={place.id}
