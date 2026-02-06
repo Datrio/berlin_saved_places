@@ -43,7 +43,7 @@ export function PlaceDetail() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={handleClose}>
+    <div className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/50" onClick={handleClose}>
       <div
         className="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-lg w-full mx-4 max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}

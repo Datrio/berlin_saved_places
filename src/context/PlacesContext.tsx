@@ -99,6 +99,13 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
       );
     }
 
+    // Filter by categories
+    if (filters.categories.length > 0) {
+      result = result.filter(p =>
+        filters.categories.includes(p.category || '')
+      );
+    }
+
     // Filter by labels
     if (filters.labels.length > 0) {
       result = result.filter(p =>

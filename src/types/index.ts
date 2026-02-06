@@ -10,8 +10,8 @@ export interface Place {
   rating: number | null;
   reservationUrl: string | null;
   // Additional fields that might come from scraping
-  imageUrl?: string;
-  placeUrl?: string;
+  imageUrl?: string | null;
+  placeUrl?: string | null;
   category?: string;
 }
 
@@ -33,6 +33,7 @@ export interface PlaceWithAnnotation extends Place {
 // Filter state
 export interface FilterState {
   labels: string[];
+  categories: string[]; // food, drinks, coffee
   minGoogleRating: number;
   maxGoogleRating: number;
   minScore: number;
@@ -63,6 +64,7 @@ export interface AppState {
 // Default filter state
 export const defaultFilterState: FilterState = {
   labels: [],
+  categories: [],
   minGoogleRating: 0,
   maxGoogleRating: 5,
   minScore: 0,

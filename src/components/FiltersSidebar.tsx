@@ -9,7 +9,7 @@ const TAG_CATEGORIES: Record<string, { label: string; color: string; tags: strin
   cuisine: {
     label: 'Cuisine',
     color: 'text-red-600',
-    tags: ['japanese', 'korean', 'chinese', 'thai', 'vietnamese', 'italian', 'german', 'french', 'mexican', 'georgian', 'yemeni', 'peruvian', 'american', 'european', 'middle-eastern', 'taiwanese', 'sichuan', 'isaan']
+    tags: ['japanese', 'korean', 'chinese', 'thai', 'vietnamese', 'italian', 'german', 'french', 'mexican', 'georgian', 'yemeni', 'peruvian', 'american', 'european', 'middle-eastern', 'taiwanese', 'sichuan', 'isaan', 'latin', 'russian']
   },
   type: {
     label: 'Type',
@@ -104,6 +104,13 @@ function CategorySection({
   );
 }
 
+// Category colors for the main list categories
+const CATEGORY_COLORS: Record<string, { bg: string; bgActive: string; icon: string }> = {
+  food: { bg: 'bg-orange-100 text-orange-700 border-orange-200', bgActive: 'bg-orange-500 text-white', icon: '🍽️' },
+  drinks: { bg: 'bg-purple-100 text-purple-700 border-purple-200', bgActive: 'bg-purple-500 text-white', icon: '🍸' },
+  coffee: { bg: 'bg-amber-100 text-amber-700 border-amber-200', bgActive: 'bg-amber-500 text-white', icon: '☕' },
+};
+
 export function FiltersSidebar() {
   const { filters, setFilters, allLabels } = usePlaces();
 
@@ -114,12 +121,20 @@ export function FiltersSidebar() {
     setFilters({ ...filters, labels: newLabels });
   };
 
+  const handleCategoryToggle = (category: string) => {
+    const newCategories = filters.categories.includes(category)
+      ? filters.categories.filter(c => c !== category)
+      : [...filters.categories, category];
+    setFilters({ ...filters, categories: newCategories });
+  };
+
   const resetFilters = () => {
     setFilters(defaultFilterState);
   };
 
   const hasActiveFilters =
     filters.labels.length > 0 ||
+    filters.categories.length > 0 ||
     filters.minGoogleRating > 0 ||
     filters.minScore > 0 ||
     filters.hasNotes !== null;
@@ -143,6 +158,26 @@ export function FiltersSidebar() {
             Reset
           </button>
         )}
+      </div>
+
+      {/* Category Filters */}
+      <div className="mb-4 pb-4 border-b border-slate-200 dark:border-gray-700">
+        <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider block mb-2">Lists</span>
+        <div className="flex flex-wrap gap-2">
+          {Object.entries(CATEGORY_COLORS).map(([category, colors]) => (
+            <button
+              key={category}
+              onClick={() => handleCategoryToggle(category)}
+              className={`text-sm px-3 py-1.5 rounded-full transition-all font-medium border ${
+                filters.categories.includes(category)
+                  ? colors.bgActive
+                  : colors.bg
+              }`}
+            >
+              {colors.icon} {category.charAt(0).toUpperCase() + category.slice(1)}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Rating Filters */}
