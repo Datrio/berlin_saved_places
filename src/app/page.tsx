@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* Mobile sidebar overlay */}
         {isMobileFiltersOpen && (
-          <div className="fixed inset-0 z-50 md:hidden">
+          <div className="fixed inset-0 z-[1001] md:hidden">
             <div
               className="absolute inset-0 bg-black/50"
               onClick={() => setIsMobileFiltersOpen(false)}
