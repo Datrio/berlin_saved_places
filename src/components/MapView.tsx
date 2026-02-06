@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { usePlaces } from '@/context/PlacesContext';
 
 // Dynamic import for Leaflet (SSR issues)
@@ -26,12 +26,56 @@ const Popup = dynamic(
   { ssr: false }
 );
 
+// Category colors and icons
+const CATEGORY_CONFIG: Record<string, { color: string; emoji: string }> = {
+  food: { color: '#f97316', emoji: '🍽️' },    // orange
+  drinks: { color: '#a855f7', emoji: '🍸' },  // purple
+  coffee: { color: '#d97706', emoji: '☕' },  // amber
+};
+
+// Create custom marker icon for each category (must be called client-side only)
+const createCategoryIcon = (L: typeof import('leaflet'), category: string) => {
+  const config = CATEGORY_CONFIG[category] || { color: '#6b7280', emoji: '📍' };
+  return L.divIcon({
+    className: 'custom-marker',
+    html: `
+      <div style="
+        background-color: ${config.color};
+        width: 32px;
+        height: 32px;
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(-45deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        border: 2px solid white;
+      ">
+        <span style="transform: rotate(45deg); font-size: 14px;">${config.emoji}</span>
+      </div>
+    `,
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32],
+  });
+};
+
 export function MapView() {
   const { filteredPlaces, setSelectedPlaceId } = usePlaces();
   const [isClient, setIsClient] = useState(false);
+  const [categoryIcons, setCategoryIcons] = useState<Record<string, unknown> | null>(null);
 
   useEffect(() => {
     setIsClient(true);
+    // Dynamically import Leaflet and create icons
+    import('leaflet').then((L) => {
+      setCategoryIcons({
+        food: createCategoryIcon(L, 'food'),
+        drinks: createCategoryIcon(L, 'drinks'),
+        coffee: createCategoryIcon(L, 'coffee'),
+        default: createCategoryIcon(L, 'default'),
+      });
+    });
   }, []);
 
   // Calculate center from places or default to Berlin
@@ -58,6 +102,12 @@ export function MapView() {
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossOrigin=""
       />
+      <style>{`
+        .custom-marker {
+          background: transparent !important;
+          border: none !important;
+        }
+      `}</style>
       <MapContainer
         center={[center.lat, center.lng]}
         zoom={13}
@@ -71,6 +121,8 @@ export function MapView() {
           <Marker
             key={place.id}
             position={[place.coordinates.lat, place.coordinates.lng]}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            icon={categoryIcons ? (categoryIcons[place.category || 'default'] || categoryIcons.default) as any : undefined}
             eventHandlers={{
               click: () => setSelectedPlaceId(place.id),
             }}
