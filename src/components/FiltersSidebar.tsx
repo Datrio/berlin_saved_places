@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { usePlaces } from '@/context/PlacesContext';
 import { defaultFilterState } from '@/types';
+import { DISTRICT_COLORS, type BerlinDistrict } from '@/lib/districts';
 
 // Tag categories
 const TAG_CATEGORIES: Record<string, { label: string; color: string; tags: string[] }> = {
@@ -112,7 +113,7 @@ const CATEGORY_COLORS: Record<string, { bg: string; bgActive: string; icon: stri
 };
 
 export function FiltersSidebar() {
-  const { filters, setFilters, allLabels } = usePlaces();
+  const { filters, setFilters, allLabels, allDistricts } = usePlaces();
 
   const handleLabelToggle = (label: string) => {
     const newLabels = filters.labels.includes(label)
@@ -128,6 +129,13 @@ export function FiltersSidebar() {
     setFilters({ ...filters, categories: newCategories });
   };
 
+  const handleDistrictToggle = (district: string) => {
+    const newDistricts = filters.districts.includes(district)
+      ? filters.districts.filter(d => d !== district)
+      : [...filters.districts, district];
+    setFilters({ ...filters, districts: newDistricts });
+  };
+
   const resetFilters = () => {
     setFilters(defaultFilterState);
   };
@@ -135,6 +143,7 @@ export function FiltersSidebar() {
   const hasActiveFilters =
     filters.labels.length > 0 ||
     filters.categories.length > 0 ||
+    filters.districts.length > 0 ||
     filters.minGoogleRating > 0 ||
     filters.minScore > 0 ||
     filters.hasNotes !== null;
@@ -177,6 +186,37 @@ export function FiltersSidebar() {
               {colors.icon} {category.charAt(0).toUpperCase() + category.slice(1)}
             </button>
           ))}
+        </div>
+      </div>
+
+      {/* District Filters */}
+      <div className="mb-4 pb-4 border-b border-slate-200 dark:border-gray-700">
+        <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider block mb-2">
+          Districts
+          {filters.districts.length > 0 && (
+            <span className="ml-1.5 px-1.5 py-0.5 bg-indigo-100 text-indigo-700 rounded-full text-[10px]">
+              {filters.districts.length}
+            </span>
+          )}
+        </span>
+        <div className="flex flex-wrap gap-1.5">
+          {allDistricts.map(district => {
+            const colors = DISTRICT_COLORS[district as BerlinDistrict] || 'bg-gray-100 text-gray-700 border-gray-200';
+            const isSelected = filters.districts.includes(district);
+            return (
+              <button
+                key={district}
+                onClick={() => handleDistrictToggle(district)}
+                className={`text-xs px-2 py-1 rounded-full transition-all border ${
+                  isSelected
+                    ? 'bg-indigo-500 text-white border-indigo-500'
+                    : colors
+                }`}
+              >
+                {district}
+              </button>
+            );
+          })}
         </div>
       </div>
 

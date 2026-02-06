@@ -13,14 +13,21 @@ import {
 import { defaultPlaces } from '@/data/places';
 import { defaultAnnotations } from '@/data/defaultAnnotations';
 import * as storage from '@/lib/storage';
+import { getDistrictFromCoordinates, BERLIN_DISTRICTS } from '@/lib/districts';
+
+// Extended type with computed district
+interface PlaceWithDistrict extends PlaceWithAnnotation {
+  district: string;
+}
 
 interface PlacesContextType {
   // Data
   places: Place[];
   annotations: Record<string, UserAnnotation>;
-  placesWithAnnotations: PlaceWithAnnotation[];
-  filteredPlaces: PlaceWithAnnotation[];
+  placesWithAnnotations: PlaceWithDistrict[];
+  filteredPlaces: PlaceWithDistrict[];
   allLabels: string[];
+  allDistricts: readonly string[];
 
   // State
   filters: FilterState;
@@ -77,16 +84,17 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     return Array.from(labelsSet).sort();
   }, [annotations]);
 
-  // Combine places with their annotations
-  const placesWithAnnotations = useMemo((): PlaceWithAnnotation[] => {
+  // Combine places with their annotations and computed district
+  const placesWithAnnotations = useMemo((): PlaceWithDistrict[] => {
     return places.map(place => ({
       ...place,
       annotation: annotations[place.id] || null,
+      district: getDistrictFromCoordinates(place.coordinates.lat, place.coordinates.lng),
     }));
   }, [places, annotations]);
 
   // Apply filters and sorting
-  const filteredPlaces = useMemo((): PlaceWithAnnotation[] => {
+  const filteredPlaces = useMemo((): PlaceWithDistrict[] => {
     let result = [...placesWithAnnotations];
 
     // Filter by search query
@@ -103,6 +111,13 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     if (filters.categories.length > 0) {
       result = result.filter(p =>
         filters.categories.includes(p.category || '')
+      );
+    }
+
+    // Filter by districts
+    if (filters.districts.length > 0) {
+      result = result.filter(p =>
+        filters.districts.includes(p.district)
       );
     }
 
@@ -181,6 +196,7 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     placesWithAnnotations,
     filteredPlaces,
     allLabels,
+    allDistricts: BERLIN_DISTRICTS,
     filters,
     sort,
     view,

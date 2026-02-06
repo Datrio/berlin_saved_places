@@ -34,6 +34,7 @@ export interface PlaceWithAnnotation extends Place {
 export interface FilterState {
   labels: string[];
   categories: string[]; // food, drinks, coffee
+  districts: string[]; // berlin districts
   minGoogleRating: number;
   maxGoogleRating: number;
   minScore: number;
@@ -65,6 +66,7 @@ export interface AppState {
 export const defaultFilterState: FilterState = {
   labels: [],
   categories: [],
+  districts: [],
   minGoogleRating: 0,
   maxGoogleRating: 5,
   minScore: 0,

@@ -30,7 +30,7 @@ const Popup = dynamic(
 const CATEGORY_CONFIG: Record<string, { color: string; emoji: string }> = {
   food: { color: '#f97316', emoji: '🍽️' },    // orange
   drinks: { color: '#a855f7', emoji: '🍸' },  // purple
-  coffee: { color: '#d97706', emoji: '☕' },  // amber
+  coffee: { color: '#eab308', emoji: '☕' },  // yellow
 };
 
 // Create custom marker icon for each category (must be called client-side only)
