@@ -66,10 +66,41 @@ const createCategoryIcon = (L: typeof import('leaflet'), category: string) => {
   });
 };
 
+// Create user location marker icon
+const createUserLocationIcon = (L: typeof import('leaflet')) => {
+  return L.divIcon({
+    className: 'user-location-marker',
+    html: `
+      <div style="
+        width: 24px;
+        height: 24px;
+        background-color: #3b82f6;
+        border: 3px solid white;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.5);
+      ">
+        <div style="
+          position: absolute;
+          top: -8px;
+          left: -8px;
+          width: 40px;
+          height: 40px;
+          background-color: rgba(59, 130, 246, 0.2);
+          border-radius: 50%;
+          animation: pulse 2s infinite;
+        "></div>
+      </div>
+    `,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+  });
+};
+
 export function MapView() {
-  const { filteredPlaces, setSelectedPlaceId } = usePlaces();
+  const { filteredPlaces, setSelectedPlaceId, userLocation } = usePlaces();
   const [isClient, setIsClient] = useState(false);
   const [categoryIcons, setCategoryIcons] = useState<Record<string, unknown> | null>(null);
+  const [userLocationIcon, setUserLocationIcon] = useState<unknown>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -81,6 +112,7 @@ export function MapView() {
         coffee: createCategoryIcon(L, 'coffee'),
         default: createCategoryIcon(L, 'default'),
       });
+      setUserLocationIcon(createUserLocationIcon(L));
     });
   }, []);
 
@@ -109,9 +141,13 @@ export function MapView() {
         crossOrigin=""
       />
       <style>{`
-        .custom-marker {
+        .custom-marker, .user-location-marker {
           background: transparent !important;
           border: none !important;
+        }
+        @keyframes pulse {
+          0% { transform: scale(1); opacity: 1; }
+          100% { transform: scale(2); opacity: 0; }
         }
       `}</style>
       <MapContainer
@@ -123,7 +159,20 @@ export function MapView() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <FitBoundsComponent places={filteredPlaces} />
+        <FitBoundsComponent places={filteredPlaces} userLocation={userLocation} />
+        {userLocation && userLocationIcon ? (
+          <Marker
+            position={[userLocation.lat, userLocation.lng]}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            icon={userLocationIcon as any}
+          >
+            <Popup>
+              <div className="text-center">
+                <p className="font-semibold">You are here</p>
+              </div>
+            </Popup>
+          </Marker>
+        ) : null}
         {filteredPlaces.map((place) => (
           <Marker
             key={place.id}

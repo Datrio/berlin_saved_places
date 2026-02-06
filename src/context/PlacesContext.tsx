@@ -34,6 +34,8 @@ interface PlacesContextType {
   view: 'list' | 'map';
   selectedPlaceId: string | null;
   isLoading: boolean;
+  userLocation: { lat: number; lng: number } | null;
+  isLocating: boolean;
 
   // Actions
   setFilters: (filters: FilterState) => void;
@@ -41,6 +43,8 @@ interface PlacesContextType {
   setView: (view: 'list' | 'map') => void;
   setSelectedPlaceId: (id: string | null) => void;
   updateAnnotation: (placeId: string, annotation: Partial<UserAnnotation>) => void;
+  requestLocation: () => void;
+  clearLocation: () => void;
 }
 
 const PlacesContext = createContext<PlacesContextType | undefined>(undefined);
@@ -53,6 +57,8 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
   const [view, setView] = useState<'list' | 'map'>('map');
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [isLocating, setIsLocating] = useState(false);
 
   // Load annotations from localStorage on mount
   useEffect(() => {
@@ -183,6 +189,38 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
+  // Request user location
+  const requestLocation = useCallback(() => {
+    if (!navigator.geolocation) {
+      alert('Geolocation is not supported by your browser');
+      return;
+    }
+
+    setIsLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserLocation({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        });
+        setIsLocating(false);
+        // Switch to map view when location is shared
+        setView('map');
+      },
+      (error) => {
+        console.error('Error getting location:', error);
+        alert('Unable to get your location. Please check your browser permissions.');
+        setIsLocating(false);
+      },
+      { enableHighAccuracy: true, timeout: 10000 }
+    );
+  }, []);
+
+  // Clear user location
+  const clearLocation = useCallback(() => {
+    setUserLocation(null);
+  }, []);
+
   const value: PlacesContextType = {
     places,
     annotations,
@@ -195,11 +233,15 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     view,
     selectedPlaceId,
     isLoading,
+    userLocation,
+    isLocating,
     setFilters,
     setSort,
     setView,
     setSelectedPlaceId,
     updateAnnotation,
+    requestLocation,
+    clearLocation,
   };
 
   return (

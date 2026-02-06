@@ -15,7 +15,8 @@
       "Bash(node --version:*)",
       "Bash(pkill:*)",
       "Bash(git remote add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(node -e:*)"
     ]
   }
 }

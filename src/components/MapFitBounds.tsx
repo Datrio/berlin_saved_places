@@ -6,9 +6,10 @@ import L from 'leaflet';
 
 interface MapFitBoundsProps {
   places: { id: string; coordinates: { lat: number; lng: number } }[];
+  userLocation: { lat: number; lng: number } | null;
 }
 
-export function MapFitBounds({ places }: MapFitBoundsProps) {
+export function MapFitBounds({ places, userLocation }: MapFitBoundsProps) {
   const map = useMap();
 
   // Create a stable key from place IDs to detect actual changes
@@ -17,8 +18,24 @@ export function MapFitBounds({ places }: MapFitBoundsProps) {
   }, [places]);
 
   const prevPlacesKey = useRef(placesKey);
+  const prevUserLocation = useRef(userLocation);
 
+  // Handle user location changes - zoom to user location
   useEffect(() => {
+    if (userLocation && userLocation !== prevUserLocation.current) {
+      map.setView([userLocation.lat, userLocation.lng], 15);
+    }
+    prevUserLocation.current = userLocation;
+  }, [userLocation, map]);
+
+  // Handle places changes - fit bounds
+  useEffect(() => {
+    // Skip if user location is active (don't override user location zoom)
+    if (userLocation) {
+      prevPlacesKey.current = placesKey;
+      return;
+    }
+
     // Only fit bounds if the places actually changed
     if (prevPlacesKey.current === placesKey) {
       return;
@@ -46,7 +63,7 @@ export function MapFitBounds({ places }: MapFitBoundsProps) {
       padding: [50, 50],
       maxZoom: 15,
     });
-  }, [places, placesKey, map]);
+  }, [places, placesKey, userLocation, map]);
 
   return null;
 }
