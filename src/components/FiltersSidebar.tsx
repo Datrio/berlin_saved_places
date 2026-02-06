@@ -72,7 +72,11 @@ function CategorySection({
   );
 }
 
-export function FiltersSidebar() {
+interface FiltersSidebarProps {
+  onClose?: () => void;
+}
+
+export function FiltersSidebar({ onClose }: FiltersSidebarProps) {
   const { filters, setFilters, allLabels, allDistricts, placesWithAnnotations } = usePlaces();
 
   // Count places by category (a place can be in multiple categories)
@@ -127,20 +131,32 @@ export function FiltersSidebar() {
   const uncategorizedTags = allLabels.filter(tag => !categorizedTags.includes(tag));
 
   return (
-    <aside className="w-64 bg-gradient-to-b from-slate-50 to-slate-100 dark:from-gray-800 dark:to-gray-900 border-r border-slate-200 dark:border-gray-700 p-4 overflow-y-auto">
+    <aside className="w-64 h-full bg-gradient-to-b from-slate-50 to-slate-100 dark:from-gray-800 dark:to-gray-900 border-r border-slate-200 dark:border-gray-700 p-4 overflow-y-auto">
       <div className="flex items-center justify-between mb-4">
         <h2 className="font-semibold text-slate-800 dark:text-white flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-indigo-500"></span>
           Filters
         </h2>
-        {hasActiveFilters && (
-          <button
-            onClick={resetFilters}
-            className="text-xs text-pink-600 dark:text-pink-400 hover:underline font-medium"
-          >
-            Reset
-          </button>
-        )}
+        <div className="flex items-center gap-2">
+          {hasActiveFilters && (
+            <button
+              onClick={resetFilters}
+              className="text-xs text-pink-600 dark:text-pink-400 hover:underline font-medium"
+            >
+              Reset
+            </button>
+          )}
+          {onClose && (
+            <button
+              onClick={onClose}
+              className="md:hidden p-1 text-slate-500 hover:text-slate-700 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Category Filters */}
