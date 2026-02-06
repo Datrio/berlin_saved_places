@@ -101,7 +101,7 @@ export function MapView() {
   }
 
   return (
-    <div className="h-[calc(100vh-200px)] rounded-lg overflow-hidden">
+    <div className="h-full min-h-[400px] rounded-lg overflow-hidden">
       <link
         rel="stylesheet"
         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"

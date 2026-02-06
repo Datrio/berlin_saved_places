@@ -13,10 +13,10 @@ export default function Home() {
   const { view, selectedPlaceId } = usePlaces();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
+    <div className="h-screen bg-gray-50 dark:bg-gray-900 flex flex-col overflow-hidden">
       <Header />
 
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1 min-h-0">
         <FiltersSidebar />
 
         <main className="flex-1 p-6 overflow-y-auto">
