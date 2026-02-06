@@ -3,7 +3,7 @@ export const TAG_CATEGORIES: Record<string, { label: string; color: string; tags
   cuisine: {
     label: 'Cuisine',
     color: 'text-red-600',
-    tags: ['japanese', 'korean', 'chinese', 'thai', 'vietnamese', 'italian', 'german', 'french', 'mexican', 'georgian', 'yemeni', 'peruvian', 'american', 'european', 'middle-eastern', 'taiwanese', 'sichuan', 'isaan', 'latin', 'russian']
+    tags: ['japanese', 'korean', 'chinese', 'thai', 'vietnamese', 'italian', 'german', 'french', 'mexican', 'georgian', 'yemeni', 'peruvian', 'american', 'european', 'middle-eastern', 'taiwanese', 'sichuan', 'isaan', 'latin', 'russian', 'austrian', 'indian', 'nepalese', 'persian', 'spanish', 'turkish']
   },
   type: {
     label: 'Type',
@@ -13,7 +13,7 @@ export const TAG_CATEGORIES: Record<string, { label: string; color: string; tags
   vibe: {
     label: 'Vibe',
     color: 'text-purple-600',
-    tags: ['date-night', 'casual', 'upscale', 'cozy', 'trendy', 'intimate', 'special-occasion', 'nightlife', 'outdoor', 'brunch']
+    tags: ['date-night', 'casual', 'upscale', 'cozy', 'trendy', 'intimate', 'special-occasion', 'nightlife', 'outdoor', 'brunch', 'fast-food', 'healthy']
   },
   style: {
     label: 'Style',
@@ -23,7 +23,7 @@ export const TAG_CATEGORIES: Record<string, { label: string; color: string; tags
   food: {
     label: 'Food',
     color: 'text-green-600',
-    tags: ['ramen', 'sushi', 'pizza', 'tacos', 'bao', 'curry', 'wagyu', 'onigiri', 'khachapuri', 'banh-mi', 'ceviche', 'dim-sum', 'bibimbap', 'mussels', 'seafood', 'meat', 'dumplings', 'pastries', 'snacks', 'tapas', 'spicy', 'omakase', 'all-you-can-eat']
+    tags: ['ramen', 'sushi', 'pizza', 'tacos', 'bao', 'curry', 'wagyu', 'onigiri', 'khachapuri', 'banh-mi', 'ceviche', 'dim-sum', 'bibimbap', 'mussels', 'seafood', 'meat', 'dumplings', 'pastries', 'snacks', 'tapas', 'spicy', 'omakase', 'all-you-can-eat', 'bbq', 'burgers', 'kebab', 'sandwich', 'steak', 'dessert', 'wok']
   },
   special: {
     label: 'Special',

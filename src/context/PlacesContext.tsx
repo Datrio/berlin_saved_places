@@ -11,7 +11,6 @@ import {
   defaultSortState,
 } from '@/types';
 import { defaultPlaces } from '@/data/places';
-import { defaultAnnotations } from '@/data/defaultAnnotations';
 import * as storage from '@/lib/storage';
 import { getDistrictFromCoordinates, BERLIN_DISTRICTS } from '@/lib/districts';
 
@@ -55,30 +54,20 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Load annotations from localStorage on mount, merged with defaults
+  // Load annotations from localStorage on mount
   useEffect(() => {
     const savedAnnotations = storage.getAnnotations();
-    // Merge: user saved annotations override defaults
-    const merged = { ...defaultAnnotations };
-    Object.keys(savedAnnotations).forEach(key => {
-      merged[key] = {
-        ...defaultAnnotations[key],
-        ...savedAnnotations[key],
-        // Merge labels arrays, keeping unique values
-        labels: [...new Set([
-          ...(defaultAnnotations[key]?.labels || []),
-          ...(savedAnnotations[key]?.labels || [])
-        ])]
-      };
-    });
-    setAnnotations(merged);
+    setAnnotations(savedAnnotations);
     setIsLoading(false);
   }, []);
 
-  // Get all unique labels from current places (not just annotations)
+  // Get all unique labels from places and annotations
   const allLabels = useMemo(() => {
     const labelsSet = new Set<string>();
     places.forEach(place => {
+      // Labels from place data
+      place.labels?.forEach(label => labelsSet.add(label));
+      // Labels from user annotations
       const annotation = annotations[place.id];
       annotation?.labels.forEach(label => labelsSet.add(label));
     });
@@ -111,7 +100,7 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
     // Filter by categories
     if (filters.categories.length > 0) {
       result = result.filter(p =>
-        filters.categories.includes(p.category || '')
+        p.categories?.some(cat => filters.categories.includes(cat))
       );
     }
 
@@ -122,11 +111,14 @@ export function PlacesProvider({ children }: { children: React.ReactNode }) {
       );
     }
 
-    // Filter by labels
+    // Filter by labels (check both place labels and annotation labels)
     if (filters.labels.length > 0) {
-      result = result.filter(p =>
-        filters.labels.some(label => p.annotation?.labels.includes(label))
-      );
+      result = result.filter(p => {
+        const placeLabels = p.labels || [];
+        const annotationLabels = p.annotation?.labels || [];
+        const allPlaceLabels = [...placeLabels, ...annotationLabels];
+        return filters.labels.some(label => allPlaceLabels.includes(label));
+      });
     }
 
     // Filter by Google rating

@@ -75,10 +75,11 @@ function CategorySection({
 export function FiltersSidebar() {
   const { filters, setFilters, allLabels, allDistricts, placesWithAnnotations } = usePlaces();
 
-  // Count places by category
+  // Count places by category (a place can be in multiple categories)
   const categoryCounts = placesWithAnnotations.reduce((acc, place) => {
-    const cat = place.category || 'other';
-    acc[cat] = (acc[cat] || 0) + 1;
+    (place.categories || []).forEach(cat => {
+      acc[cat] = (acc[cat] || 0) + 1;
+    });
     return acc;
   }, {} as Record<string, number>);
 

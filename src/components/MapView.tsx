@@ -129,7 +129,7 @@ export function MapView() {
             key={place.id}
             position={[place.coordinates.lat, place.coordinates.lng]}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            icon={categoryIcons ? (categoryIcons[place.category || 'default'] || categoryIcons.default) as any : undefined}
+            icon={categoryIcons ? (categoryIcons[place.categories?.[0] || 'default'] || categoryIcons.default) as any : undefined}
             eventHandlers={{
               click: () => setSelectedPlaceId(place.id),
             }}

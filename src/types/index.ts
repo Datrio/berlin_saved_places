@@ -12,7 +12,8 @@ export interface Place {
   // Additional fields that might come from scraping
   imageUrl?: string | null;
   placeUrl?: string | null;
-  category?: string;
+  categories?: string[];
+  labels?: string[];
 }
 
 // User's personal annotations (mutable)

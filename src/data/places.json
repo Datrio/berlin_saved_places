@@ -1,0 +1,3038 @@
+[
+  {
+    "name": "Spaccanapoli Nr. 12",
+    "address": "Wühlischstraße 12, 10245 Berlin",
+    "geo": [
+      52.508295399999994,
+      13.4635381
+    ],
+    "id": "/g/11jszq9ql3",
+    "category": "food",
+    "labels": [
+      "restaurant", "italian"
+    ]
+  },
+  {
+    "name": "Il Ritrovo - Cucina Casalinga Popolare",
+    "address": "Gabriel-Max-Straße 2, 10245 Berlin",
+    "geo": [
+      52.5095959,
+      13.4581123
+    ],
+    "id": "/g/1tfrqyt2",
+    "category": "food",
+    "labels": [
+      "restaurant", "italian"
+    ]
+  },
+  {
+    "name": "Aroma",
+    "address": "Kantstraße 35, 10625 Berlin",
+    "geo": [
+      52.5063909,
+      13.3155559
+    ],
+    "id": "/g/1tv3mqgn",
+    "category": "food",
+    "labels": [
+      "restaurant", "asian", "cantonese"
+    ]
+  },
+  {
+    "name": "Ristorante Bella Vita",
+    "address": "Mittelstraße 62, 10117 Berlin",
+    "geo": [
+      52.5179547,
+      13.389359899999999
+    ],
+    "id": "/g/11c5zzpty3",
+    "category": "food",
+    "labels": [
+      "italian"
+    ]
+  },
+  {
+    "name": "Dirty Rose - Spanish Tapas- & Cocktailbar",
+    "address": "Rosenthaler Str. 2, 10119 Berlin",
+    "geo": [
+      52.529114899999996,
+      13.4014933
+    ],
+    "id": "/g/11v3hlf9p2",
+    "category": "food",
+    "labels": [
+      "bar",
+      "restaurant",
+      "spanish"
+    ]
+  },
+  {
+    "name": "Katz Orange",
+    "address": "Bergstraße 22, 10115 Berlin",
+    "geo": [
+      52.5314438,
+      13.394624499999999
+    ],
+    "id": "/g/119vm3_tq",
+    "category": "food",
+    "labels": [
+      "restaurant", "upscale"
+    ]
+  },
+  {
+    "name": "SORI Ramen Berlin",
+    "address": "Wisbyer Str. 3, 10439 Berlin",
+    "geo": [
+      52.5533278,
+      13.4158063
+    ],
+    "id": "/g/11x_409ycl",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant",
+      "japanese"
+    ]
+  },
+  {
+    "name": "La Buvette",
+    "address": "Gleimstraße 41, 10437 Berlin",
+    "geo": [
+      52.5474696,
+      13.409028399999999
+    ],
+    "id": "/g/11bw1z2twz",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "french",
+      "steak"
+    ]
+  },
+  {
+    "name": "Iro Izakaya",
+    "address": "Krossener Str. 19, 10245 Berlin",
+    "geo": [
+      52.5103966,
+      13.4587284
+    ],
+    "id": "/g/11f5vds3wk",
+    "category": "food",
+    "labels": [
+      "japanese"
+    ]
+  },
+  {
+    "name": "Itarei Restaurant - Japanese x Italian Fusion",
+    "address": "Kollwitzstraße 89, 10435 Berlin",
+    "geo": [
+      52.538622499999995,
+      13.4200916
+    ],
+    "id": "/g/11y3k_jbft",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "japanese",
+      "italian"
+    ]
+  },
+  {
+    "name": "daia Georgisches Restaurant",
+    "address": "Kopenhagener Str. 69, 10437 Berlin",
+    "geo": [
+      52.5487732,
+      13.409569399999999
+    ],
+    "id": "/g/11yknjpnnv",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "georgian"
+    ]
+  },
+  {
+    "name": "Bamnat Korean Restaurant",
+    "address": "Paul-Lincke-Ufer 40, 10999 Berlin",
+    "geo": [
+      52.496158699999995,
+      13.4222515
+    ],
+    "id": "/g/11wwgmg5vw",
+    "category": "food",
+    "labels": [
+      "korean"
+    ]
+  },
+  {
+    "name": "Rubens Arepas",
+    "address": "Kastanienallee 47, 10119 Berlin",
+    "geo": [
+      52.5344394,
+      13.4052455
+    ],
+    "id": "/g/11x64stsgb",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "venezuelan"
+    ]
+  },
+  {
+    "name": "The Grain",
+    "address": "Gleimstraße 38, 10437 Berlin",
+    "geo": [
+      52.5475569,
+      13.410431899999999
+    ],
+    "id": "/g/11pkcht40_",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "pizza"
+    ]
+  },
+  {
+    "name": "Malafemmena Prenzlauer Berg",
+    "address": "Danziger Str. 16, 10435 Berlin",
+    "geo": [
+      52.5402227,
+      13.415365399999999
+    ],
+    "id": "/g/11j8zxzngn",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "pizza"
+    ]
+  },
+  {
+    "name": "Salumeria Lamuri",
+    "address": "Köpenicker Str. 183, 10997 Berlin",
+    "geo": [
+      52.502978999999996,
+      13.437866
+    ],
+    "id": "/g/1ptwj2l8k",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "italian"
+    ]
+  },
+  {
+    "name": "Mr. Noodle Chen",
+    "address": "Willdenowstraße 12, 13353 Berlin",
+    "geo": [
+      52.544145799999995,
+      13.360256099999999
+    ],
+    "id": "/g/11wm_6xgx7",
+    "category": "food",
+    "labels": [
+      "noodles",
+      "restaurant",
+      "chinese"
+    ]
+  },
+  {
+    "name": "Bertie",
+    "address": "Schwedter Str. 13, 10119 Berlin",
+    "geo": [
+      52.5338845,
+      13.4096329
+    ],
+    "id": "/g/11vx39vbj7",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "MISO LAB",
+    "address": "Gleimstraße 10A, 10437 Berlin",
+    "geo": [
+      52.5468707,
+      13.4059993
+    ],
+    "id": "/g/11mkck0t_y",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "japanese"
+    ]
+  },
+  {
+    "name": "Holy Everest",
+    "address": "Gleimstraße 54, 10437 Berlin",
+    "geo": [
+      52.5469686,
+      13.4037826
+    ],
+    "id": "/g/11h51jvsb8",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "nepalese"
+    ]
+  },
+  {
+    "name": "meet me halfway Berlin",
+    "address": "Zinnowitzer Str. 5, 10115 Berlin",
+    "geo": [
+      52.5319419,
+      13.3832472
+    ],
+    "id": "/g/11jmdf9_z0",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "middle-eastern",
+      "persian"
+    ]
+  },
+  {
+    "name": "Formidable",
+    "address": "Schönhauser Allee 126, 10437 Berlin",
+    "geo": [
+      52.5471335,
+      13.4128636
+    ],
+    "id": "/g/11c1qxd38x",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Café EGGRYTHING",
+    "address": "Gleimstraße 12, 10437 Berlin",
+    "geo": [
+      52.5469678,
+      13.406610899999999
+    ],
+    "id": "/g/11vsrvhgnm",
+    "category": "food",
+    "labels": [
+      "cafe",
+      "restaurant",
+      "korean",
+      "sandwiches"
+    ]
+  },
+  {
+    "name": "Mmaah - Eat Korean!",
+    "address": "Schönhauser Allee 44, 10435 Berlin",
+    "geo": [
+      52.5403977,
+      13.412576
+    ],
+    "id": "/g/11y2hr8tny",
+    "category": "food",
+    "labels": [
+      "korean"
+    ]
+  },
+  {
+    "name": "Grindhouse Burgers",
+    "address": "Kollwitzstraße 50, 10405 Berlin",
+    "geo": [
+      52.5345285,
+      13.4164848
+    ],
+    "id": "/g/11bzs54c9y",
+    "category": "food",
+    "labels": [
+      "burgers",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Napoljonska – Café & Brunch",
+    "address": "Kastanienallee 43, 10119 Berlin",
+    "geo": [
+      52.5348912,
+      13.4055459
+    ],
+    "id": "/g/1thmk0kk",
+    "category": "food",
+    "labels": [
+      "cafe",
+      "restaurant",
+      "vegetarian"
+    ]
+  },
+  {
+    "name": "Munchies Alexanderplatz",
+    "address": "Karl-Liebknecht-Str. 14, 10178 Berlin",
+    "geo": [
+      52.522144399999995,
+      13.4094515
+    ],
+    "id": "/g/11xkp18jkp",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "fast-food"
+    ]
+  },
+  {
+    "name": "Wondeo Chikin - Korean Fried Chicken Halal",
+    "address": "Karl-Liebknecht-Str. 13, 10178 Berlin",
+    "geo": [
+      52.5220519,
+      13.407480699999999
+    ],
+    "id": "/g/11t7l662qn",
+    "category": "food",
+    "labels": [
+      "korean",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Sticks'n'Sushi - Restaurant Torstraße",
+    "address": "Torstraße 171, 10115 Berlin",
+    "geo": [
+      52.529059999999994,
+      13.395152699999999
+    ],
+    "id": "/g/11s7c7wdsg",
+    "category": "food",
+    "labels": [
+      "japanese",
+      "sushi"
+    ]
+  },
+  {
+    "name": "Sam Yuk Gu",
+    "address": "Seestraße 71, 13347 Berlin",
+    "geo": [
+      52.5546939,
+      13.361150499999999
+    ],
+    "id": "/g/11b7c7fbn3",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "korean",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Transit",
+    "address": "Rosenthaler Str. 68, 10119 Berlin",
+    "geo": [
+      52.5286684,
+      13.4022562
+    ],
+    "id": "/g/1tzztjr4",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "asian",
+      "tapas"
+    ]
+  },
+  {
+    "name": "Breggs",
+    "address": "Oranienburger Str. 84, 10178 Berlin",
+    "geo": [
+      52.5235284,
+      13.399379099999999
+    ],
+    "id": "/g/11trlz_mk_",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "sandwiches"
+    ]
+  },
+  {
+    "name": "The Dry Gin and Beef Club Berlin GmbH",
+    "address": "Oranienburger Str. 60, 10117 Berlin",
+    "geo": [
+      52.5255904,
+      13.389723
+    ],
+    "id": "/g/11vbqr_8rn",
+    "category": "food",
+    "labels": [
+      "restaurant",
+      "fancy",
+      "steaks"
+    ]
+  },
+  {
+    "name": "DUKKI",
+    "address": "Burgsdorfstraße 14, 13353 Berlin",
+    "geo": [
+      52.542927999999996,
+      13.363040199999999
+    ],
+    "id": "/g/11sqhdsgvv",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Peter Schlemihl",
+    "address": "Willibald-Alexis-Straße 25, 10965 Berlin",
+    "geo": [
+      52.487634299999996,
+      13.3908163
+    ],
+    "id": "/g/11c52b6dtk",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Café Marral",
+    "address": "Torstraße 222, 10115 Berlin",
+    "geo": [
+      52.5272722,
+      13.388612499999999
+    ],
+    "id": "/g/1pp2vfgfk",
+    "category": "food",
+    "labels": [
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "La Esperanza Restaurant Tapas Bar",
+    "address": "Chausseestraße 131 B, 10115 Berlin",
+    "geo": [
+      52.5273012,
+      13.386455
+    ],
+    "id": "/g/11jz1qzgrj",
+    "category": "food",
+    "labels": [
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "BURRO UNCHAINED",
+    "address": "Allerstraße 11, 12049 Berlin",
+    "geo": [
+      52.474988499999995,
+      13.4239201
+    ],
+    "id": "/g/11ll959d2j",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "NYOM Restaurant",
+    "address": "Gabriel-Max-Straße 17, 10245 Berlin",
+    "geo": [
+      52.5108216,
+      13.4583748
+    ],
+    "id": "/g/11dx8ywbvr",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Ryong",
+    "address": "Torstraße 59, 10119 Berlin",
+    "geo": [
+      52.5290719,
+      13.4089861
+    ],
+    "id": "/g/11cs1v_qp9",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Bonfini",
+    "address": "Chausseestraße 15, 10115 Berlin",
+    "geo": [
+      52.5295908,
+      13.384601199999999
+    ],
+    "id": "/g/1tfrft10",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Mamocucina",
+    "address": "Chausseestraße 116, 10115 Berlin",
+    "geo": [
+      52.5300529,
+      13.3834222
+    ],
+    "id": "/g/1tgf6trb",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hasir Burger",
+    "address": "Chausseestraße 31, 10115 Berlin",
+    "geo": [
+      52.5324744,
+      13.3809913
+    ],
+    "id": "/g/11c0phw9jn",
+    "category": "food",
+    "labels": [
+      "burgers",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "L'Osteria Berlin Humboldthafen",
+    "address": "Hilda-Geiringer-Weg 4, 10557 Berlin",
+    "geo": [
+      52.526884499999994,
+      13.3724645
+    ],
+    "id": "/g/11fk1sdn7r",
+    "category": "food",
+    "labels": [
+      "italian"
+    ]
+  },
+  {
+    "name": "Peter Pane",
+    "address": "Invalidenstraße 53, 10557 Berlin",
+    "geo": [
+      52.527158899999996,
+      13.3703598
+    ],
+    "id": "/g/11bwqpzc3x",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Dolores Mitte",
+    "address": "Rosa-Luxemburg-Straße 7, 10178 Berlin",
+    "geo": [
+      52.523831699999995,
+      13.4091834
+    ],
+    "id": "/g/1v8x16cs",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Mamida",
+    "address": "Dunckerstraße 80A, 10437 Berlin",
+    "geo": [
+      52.5430291,
+      13.4209438
+    ],
+    "id": "/g/11lm2zmldd",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "RISA Chicken",
+    "address": "Schönhauser Allee 45, 10435 Berlin",
+    "geo": [
+      52.5408155,
+      13.4125702
+    ],
+    "id": "/g/11c67wm74x",
+    "category": "food",
+    "labels": [
+      "chicken",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "NAUTA Berlin",
+    "address": "Kastanienallee 49, 10119 Berlin",
+    "geo": [
+      52.5342092,
+      13.405026099999999
+    ],
+    "id": "/g/11g8nyx235",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Kuma Ramen [Markthalle Pfefferberg]",
+    "address": "Schönhauser Allee 176, 10119 Berlin",
+    "geo": [
+      52.5319589,
+      13.412048799999999
+    ],
+    "id": "/g/11t7p5h8tj",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Standard Serious Pizza",
+    "address": "Templiner Str. 7, 10119 Berlin",
+    "geo": [
+      52.532864,
+      13.4086254
+    ],
+    "id": "/g/11b6b90s5m",
+    "category": "food",
+    "labels": [
+      "italian",
+      "pizza"
+    ]
+  },
+  {
+    "name": "All in",
+    "address": "Schönhauser Allee 173, 10119 Berlin",
+    "geo": [
+      52.5324368,
+      13.412163999999999
+    ],
+    "id": "/g/11l6zr9xs1",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Café Anna Blume",
+    "address": "Kollwitzstraße 83, 10435 Berlin",
+    "geo": [
+      52.5380566,
+      13.419539799999999
+    ],
+    "id": "/g/1ts3k78q",
+    "category": "food",
+    "labels": [
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Restaurant Pasternak",
+    "address": "Knaackstraße 22-24, 10405 Berlin",
+    "geo": [
+      52.534818599999994,
+      13.4186651
+    ],
+    "id": "/g/11gfcxj29n",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hofbräu",
+    "address": "Karl-Liebknecht-Str. 30, 10178 Berlin",
+    "geo": [
+      52.5247247,
+      13.4137705
+    ],
+    "id": "/g/1tgdg_zb",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Banh Mi Stable",
+    "address": "Schendelgasse 9, 10119 Berlin",
+    "geo": [
+      52.526906499999996,
+      13.4086465
+    ],
+    "id": "/g/11c50qq5nn",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Cuore di Vetro",
+    "address": "Max-Beer-Str. 33, 10119 Berlin",
+    "geo": [
+      52.526603699999995,
+      13.4085516
+    ],
+    "id": "/g/11b71sl183",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Siciliamo",
+    "address": "Allerstraße 3, 12049 Berlin",
+    "geo": [
+      52.4752722,
+      13.4262748
+    ],
+    "id": "/g/11thgbkbwy",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Cargo Gastronomia",
+    "address": "Samariterstraße 37, 10247 Berlin",
+    "geo": [
+      52.515635599999996,
+      13.4645725
+    ],
+    "id": "/g/11gr69kzj1",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Taquería El Oso",
+    "address": "Schönhauser Allee 176C, 10119 Berlin",
+    "geo": [
+      52.531940399999996,
+      13.411909999999999
+    ],
+    "id": "/g/11rs9v8_nj",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Ishin Mittelstraße",
+    "address": "Mittelstraße 24, 10117 Berlin",
+    "geo": [
+      52.5180204,
+      13.3866199
+    ],
+    "id": "/g/1vl5ftdv",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Chicago Williams BBQ",
+    "address": "Marburger Str. 16, 10789 Berlin",
+    "geo": [
+      52.5029931,
+      13.3372669
+    ],
+    "id": "/g/12j3sfm4y",
+    "category": "food",
+    "labels": [
+      "bbq",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "The Bird",
+    "address": "Am Falkpl. 5, 10437 Berlin",
+    "geo": [
+      52.5466388,
+      13.4057455
+    ],
+    "id": "/g/1vnnhf9x",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hako Ramen Prenzlauer Berg",
+    "address": "Kastanienallee 16, 10435 Berlin",
+    "geo": [
+      52.538508,
+      13.40932
+    ],
+    "id": "/g/11h1dctzx8",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Babel Restaurant",
+    "address": "Kastanienallee 33, 10435 Berlin",
+    "geo": [
+      52.536718199999996,
+      13.4074297
+    ],
+    "id": "/g/1tj6sw3n",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Hummus & Friends",
+    "address": "Oranienburger Str. 27, 10117 Berlin",
+    "geo": [
+      52.524644699999996,
+      13.3950681
+    ],
+    "id": "/g/11bt_nx4d9",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Chén Chè",
+    "address": "Rosenthaler Str. 13, 10119 Berlin",
+    "geo": [
+      52.5274819,
+      13.4026394
+    ],
+    "id": "/g/1thmk0kf",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Root Bistro & Bar",
+    "address": "Monbijoustraße 11, 10117 Berlin",
+    "geo": [
+      52.523891,
+      13.3945546
+    ],
+    "id": "/g/11s90sc42y",
+    "category": "food",
+    "labels": [
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Petrarca",
+    "address": "Novalisstraße 8, 10115 Berlin",
+    "geo": [
+      52.5292805,
+      13.388330999999999
+    ],
+    "id": "/g/1pzr1wgs9",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Cafe Buondi",
+    "address": "Eichendorffstraße 6, 10115 Berlin",
+    "geo": [
+      52.5302602,
+      13.3876691
+    ],
+    "id": "/g/11scjsl8_4",
+    "category": "food",
+    "labels": [
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "KOKIO",
+    "address": "Danziger Str. 20, 10435 Berlin",
+    "geo": [
+      52.5402261,
+      13.4159239
+    ],
+    "id": "/g/11f79fj4tr",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Shiori",
+    "address": "Max-Beer-Str. 13, 10119 Berlin",
+    "geo": [
+      52.5255437,
+      13.407955099999999
+    ],
+    "id": "/g/11c0rmkwmg",
+    "category": "food",
+    "labels": [
+      "omakase",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "House of Small Wonder",
+    "address": "Auguststraße 11-13, 10117 Berlin",
+    "geo": [
+      52.526407199999994,
+      13.394418799999999
+    ],
+    "id": "/g/11b6mmb5hv",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Core",
+    "address": "Pappelallee 84, 10437 Berlin",
+    "geo": [
+      52.5424108,
+      13.413492999999999
+    ],
+    "id": "/g/12lkbnw4d",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Granny‘s 한상",
+    "address": "Schulstraße 29, 13347 Berlin",
+    "geo": [
+      52.5499678,
+      13.3654022
+    ],
+    "id": "/g/11krs6jklh",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Chibee",
+    "address": "Tegeler Str. 29A, 13353 Berlin",
+    "geo": [
+      52.54295,
+      13.356079999999999
+    ],
+    "id": "/g/11gffz4v2c",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Magic John's Pizza",
+    "address": "Heidestraße 52, 10557 Berlin",
+    "geo": [
+      52.530474399999996,
+      13.3679021
+    ],
+    "id": "/g/11yg_l00kn",
+    "category": "food",
+    "labels": [
+      "italian",
+      "pizza"
+    ]
+  },
+  {
+    "name": "Saigon River",
+    "address": "Heidestraße 54, 10557 Berlin",
+    "geo": [
+      52.530082,
+      13.368147299999999
+    ],
+    "id": "/g/11fppm5pl5",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Möge Tee",
+    "address": "Bergmannstraße 110, 10961 Berlin",
+    "geo": [
+      52.4901537,
+      13.3877589
+    ],
+    "id": "/g/11vhcn8d1_",
+    "category": "food",
+    "labels": [
+      "tea",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Cocolo Ramen X-berg",
+    "address": "Graefestraße 11, 10967 Berlin",
+    "geo": [
+      52.4937793,
+      13.4179897
+    ],
+    "id": "/g/1yfprvxm0",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Kimchi Princess",
+    "address": "Skalitzer Str. 36, 10999 Berlin",
+    "geo": [
+      52.4985978,
+      13.4259417
+    ],
+    "id": "/g/1tj9b0k2",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "La Piadina - Kreuzberg",
+    "address": "Mariannenpl. 23, 10997 Berlin",
+    "geo": [
+      52.5042148,
+      13.4265662
+    ],
+    "id": "/g/11fy18n3sm",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "AMRIT - Berlin Kreuzberg",
+    "address": "Oranienstraße 204, 10999 Berlin",
+    "geo": [
+      52.499641,
+      13.4249485
+    ],
+    "id": "/g/1th0xcq8",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "3 Sisters",
+    "address": "Mariannenpl. 2, 10997 Berlin",
+    "geo": [
+      52.5038607,
+      13.4243826
+    ],
+    "id": "/g/1tmbv463",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Frittenwerk Berlin Alexanderplatz",
+    "address": "Alexanderpl. 8, 10178 Berlin",
+    "geo": [
+      52.5224116,
+      13.413234899999999
+    ],
+    "id": "/g/11kq1nkkms",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Tapas Berlin El Colmado Alexanderplatz",
+    "address": "Rathausstraße 13, 10178 Berlin",
+    "geo": [
+      52.519284199999994,
+      13.4096955
+    ],
+    "id": "/g/11fxd_ggwx",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Burgermeister Alexanderplatz",
+    "address": "Dircksenstraße 113, 10178 Berlin",
+    "geo": [
+      52.5203627,
+      13.4131421
+    ],
+    "id": "/g/11t3x_j0vk",
+    "category": "food",
+    "labels": [
+      "burgers",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Japan Plaza Bistro",
+    "address": "Rochstraße 14e, 10178 Berlin",
+    "geo": [
+      52.5227918,
+      13.408385899999999
+    ],
+    "id": "/g/11l2v2qt7j",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Biermeisterei by Lemke - Brauerei, BBQ, Grill Restaurant",
+    "address": "Karl-Liebknecht-Str. 13, 10178 Berlin",
+    "geo": [
+      52.5225596,
+      13.4079375
+    ],
+    "id": "/g/11ql1_wpxt",
+    "category": "food",
+    "labels": [
+      "bbq",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Burgermeister",
+    "address": "Schönhauser Allee 45, 10435 Berlin",
+    "geo": [
+      52.5407016,
+      13.4126294
+    ],
+    "id": "/g/11hzlx1h0n",
+    "category": "food",
+    "labels": [
+      "burgers",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "goldies",
+    "address": "Schönhauser Allee 144, 10435 Berlin",
+    "geo": [
+      52.541334,
+      13.4118137
+    ],
+    "id": "/g/11yjrgfpx2",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Niko Izakaya",
+    "address": "Brunnenstraße 73, 13355 Berlin",
+    "geo": [
+      52.541891,
+      13.3935476
+    ],
+    "id": "/g/11w1llrt2j",
+    "category": "food",
+    "labels": [
+      "japanese"
+    ]
+  },
+  {
+    "name": "Kin Za Georgian Kitchen Cafe and",
+    "address": "Krausnickstraße 23, 10115 Berlin",
+    "geo": [
+      52.5249373,
+      13.3956362
+    ],
+    "id": "/g/11h3b35blx",
+    "category": "food",
+    "labels": [
+      "cafe",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "HOONGY",
+    "address": "Chausseestraße 5, 10115 Berlin",
+    "geo": [
+      52.5278947,
+      13.386683699999999
+    ],
+    "id": "/g/11jp1668t5",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Schnitzelei Mitte",
+    "address": "Chausseestr. 8 Hinterhof erreichbar über: Chausseestr. 8 oder, Novalisstraße 11, 10115 Berlin",
+    "geo": [
+      52.5285831,
+      13.387885299999999
+    ],
+    "id": "/g/11c1tqz9ly",
+    "category": "food",
+    "labels": [
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Smartdeli Sushi & More",
+    "address": "Novalisstraße 2, 10115 Berlin",
+    "geo": [
+      52.528030699999995,
+      13.389100599999999
+    ],
+    "id": "/g/11cn0p9j2h",
+    "category": "food",
+    "labels": [
+      "japanese",
+      "sushi"
+    ]
+  },
+  {
+    "name": "Salamat",
+    "address": "Gartenstraße 1, 10115 Berlin",
+    "geo": [
+      52.528736599999995,
+      13.393801
+    ],
+    "id": "/g/11ddvcbbkr",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Papa Pane di Sorrento",
+    "address": "Ackerstraße 23, 10115 Berlin",
+    "geo": [
+      52.5321231,
+      13.3963886
+    ],
+    "id": "/g/1vcjl8jx",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Coccodrillo",
+    "address": "Veteranenstraße 9, 10119 Berlin",
+    "geo": [
+      52.532335499999995,
+      13.401728499999999
+    ],
+    "id": "/g/11s32x3ylx",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Yumcha Heroes",
+    "address": "Weinbergsweg 8, 10119 Berlin",
+    "geo": [
+      52.531147,
+      13.4027046
+    ],
+    "id": "/g/1tdn_hbg",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Allan's ABC",
+    "address": "Rykestraße 13, 10405 Berlin",
+    "geo": [
+      52.536479199999995,
+      13.4209021
+    ],
+    "id": "/g/11bwym8rcw",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Maria Bonita",
+    "address": "Danziger Str. 33, 10435 Berlin",
+    "geo": [
+      52.540405799999995,
+      13.418151499999999
+    ],
+    "id": "/g/1tkmlkyg",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Pizza Nostra",
+    "address": "Lychener Str. 2, 10437 Berlin",
+    "geo": [
+      52.541019899999995,
+      13.4148663
+    ],
+    "id": "/g/1tz74_wx",
+    "category": "food",
+    "labels": [
+      "italian",
+      "pizza"
+    ]
+  },
+  {
+    "name": "häppies",
+    "address": "Dunckerstraße 2, 10437 Berlin",
+    "geo": [
+      52.540596199999996,
+      13.419345499999999
+    ],
+    "id": "/g/12m9lrddr",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Valla Vino",
+    "address": "Lychener Str. 3, 10437 Berlin",
+    "geo": [
+      52.5411266,
+      13.414295099999999
+    ],
+    "id": "/g/11ny201537",
+    "category": "food",
+    "labels": [
+      "wine-bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Mama Rosas Taqueria",
+    "address": "Mehringdamm 72, 10961 Berlin",
+    "geo": [
+      52.490229899999996,
+      13.3861995
+    ],
+    "id": "/g/11vsnw535j",
+    "category": "food",
+    "labels": [
+      "mexican"
+    ]
+  },
+  {
+    "name": "KONG",
+    "address": "Prenzlauer Allee 27A, 10405 Berlin",
+    "geo": [
+      52.532857899999996,
+      13.4209797
+    ],
+    "id": "/g/11q48r9q2c",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Selecta Modern Pizza",
+    "address": "Prenzlauer Allee 32, 10405 Berlin",
+    "geo": [
+      52.53413,
+      13.4217131
+    ],
+    "id": "/g/11js9_p3vh",
+    "category": "food",
+    "labels": [
+      "italian",
+      "pizza"
+    ]
+  },
+  {
+    "name": "Oggi’s Gemüsekebab",
+    "address": "Döberitzer Str. 1, 10557 Berlin",
+    "geo": [
+      52.529447999999995,
+      13.368902199999999
+    ],
+    "id": "/g/11vt3zl6_0",
+    "category": "food",
+    "labels": [
+      "kebab",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "DI Russillo",
+    "address": "Otto-Weidt-Platz 13, 10557 Berlin",
+    "geo": [
+      52.5339155,
+      13.3672651
+    ],
+    "id": "/g/11pz527mjz",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Casalot Restaurant",
+    "address": "Heidestraße 15, 10557 Berlin",
+    "geo": [
+      52.5326415,
+      13.366528599999999
+    ],
+    "id": "/g/1tfcxvdk",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Restaurant Esszimmer",
+    "address": "Scharnhorststraße 28-29, 10115 Berlin",
+    "geo": [
+      52.5335951,
+      13.371008
+    ],
+    "id": "/g/1tl1gxx1",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Lila Vietnam fine cuisine",
+    "address": "Chausseestraße 56, 10115 Berlin",
+    "geo": [
+      52.5362716,
+      13.3762907
+    ],
+    "id": "/g/11b7rtsp8r",
+    "category": "food",
+    "labels": [
+      "vietnamese"
+    ]
+  },
+  {
+    "name": "The Biryani Club",
+    "address": "Otto-Weidt-Platz 14, 10557 Berlin",
+    "geo": [
+      52.5332528,
+      13.3681571
+    ],
+    "id": "/g/11w3n8_xny",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Ristorante Torrisi",
+    "address": "Wöhlertstraße 5, 10115 Berlin",
+    "geo": [
+      52.536402599999995,
+      13.3779243
+    ],
+    "id": "/g/11ckwbr_yj",
+    "category": "food",
+    "labels": [
+      "italian"
+    ]
+  },
+  {
+    "name": "Hackethal's",
+    "address": "Pflugstraße 11, 10115 Berlin",
+    "geo": [
+      52.536460399999996,
+      13.3796214
+    ],
+    "id": "/g/1vl9qj6z",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "+84",
+    "address": "Habersaathstraße 52, 10115 Berlin",
+    "geo": [
+      52.5324263,
+      13.3794984
+    ],
+    "id": "/g/11dfpghftz",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Golden Rice Mitte",
+    "address": "Chausseestraße 29, 10115 Berlin",
+    "geo": [
+      52.532013799999994,
+      13.381532199999999
+    ],
+    "id": "/g/1q66sxvsf",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "ALATA Ramen / Asiatisch / Berlin / Mitte / Japanisch",
+    "address": "Chausseestraße 110, 10115 Berlin",
+    "geo": [
+      52.5311574,
+      13.3821219
+    ],
+    "id": "/g/11v3j2pvlc",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Cô Chu",
+    "address": "Invalidenstraße 29, 10115 Berlin",
+    "geo": [
+      52.5311935,
+      13.3847963
+    ],
+    "id": "/g/11b5ytm0gs",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Polish Dainty",
+    "address": "Invalidenstraße 34, 10115 Berlin",
+    "geo": [
+      52.530913899999994,
+      13.383596299999999
+    ],
+    "id": "/g/11sybrwjg7",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "MarcAnn's",
+    "address": "Invalidenstraße 114, 10115 Berlin",
+    "geo": [
+      52.5306911,
+      13.3842847
+    ],
+    "id": "/g/1xb2clmr",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Mr. Vertigo",
+    "address": "Chausseestraße 17, 10115 Berlin",
+    "geo": [
+      52.5299634,
+      13.3840706
+    ],
+    "id": "/g/12hsxqljt",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "DASHI",
+    "address": "Invalidenstraße 112, 10115 Berlin",
+    "geo": [
+      52.530546099999995,
+      13.3837025
+    ],
+    "id": "/g/11q2yh7r04",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Due Fratelli",
+    "address": "Chausseestraße 131A, 10115 Berlin",
+    "geo": [
+      52.5274236,
+      13.3865384
+    ],
+    "id": "/g/11f__7k6cp",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Kebap 63",
+    "address": "Chausseestraße 12, 10115 Berlin",
+    "geo": [
+      52.5288858,
+      13.3853682
+    ],
+    "id": "/g/11gh6tss7h",
+    "category": "food",
+    "labels": [
+      "kebab",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Takumi NINE 2",
+    "address": "Chausseestraße 124, 10115 Berlin",
+    "geo": [
+      52.5290557,
+      13.3847621
+    ],
+    "id": "/g/11c556gvkn",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Mizu Ramen",
+    "address": "Friedrichstraße 115, 10117 Berlin",
+    "geo": [
+      52.5268053,
+      13.3874491
+    ],
+    "id": "/g/11j2y_60c3",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "momos - organic dumplings",
+    "address": "Chausseestraße 2, 10115 Berlin",
+    "geo": [
+      52.527595299999994,
+      13.3870276
+    ],
+    "id": "/g/1hm3bvbnt",
+    "category": "food",
+    "labels": [
+      "dumplings",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Amrit",
+    "address": "Oranienburger Str. 45, 10117 Berlin",
+    "geo": [
+      52.5259073,
+      13.3897771
+    ],
+    "id": "/g/12lspqz6r",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Night Kitchen",
+    "address": "Heckmann Höfe, Oranienburger Str. 32, 10115 Berlin",
+    "geo": [
+      52.5255777,
+      13.393979499999999
+    ],
+    "id": "/g/11g8zxwbsf",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Restaurant Keyser Soze - Berlin",
+    "address": "Tucholskystraße 33, 10117 Berlin",
+    "geo": [
+      52.526244899999995,
+      13.3934932
+    ],
+    "id": "/g/1tdb_p7b",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Yarok",
+    "address": "Torstraße 195, 10115 Berlin",
+    "geo": [
+      52.5283375,
+      13.392049499999999
+    ],
+    "id": "/g/1hc0tdq41",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Toca Rouge",
+    "address": "Torstraße 195, 10115 Berlin",
+    "geo": [
+      52.528322499999994,
+      13.392014399999999
+    ],
+    "id": "/g/1thd0vb1",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "royals & rice Berlin",
+    "address": "Torstraße 164, 10115 Berlin",
+    "geo": [
+      52.5289076,
+      13.3959643
+    ],
+    "id": "/g/11b7lmd8df",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Shiso Burger Auguststrasse",
+    "address": "Auguststraße 29C, 10119 Berlin",
+    "geo": [
+      52.5272752,
+      13.398775599999999
+    ],
+    "id": "/g/1ptxb4mp_",
+    "category": "food",
+    "labels": [
+      "burgers",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Cocolo Ramen",
+    "address": "Gipsstraße 3, 10119 Berlin",
+    "geo": [
+      52.5272088,
+      13.3993278
+    ],
+    "id": "/g/11hml2d910",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Lola Pizzaiola",
+    "address": "Winsstraße 21, 10405 Berlin",
+    "geo": [
+      52.5344589,
+      13.426114
+    ],
+    "id": "/g/12qh6__xk",
+    "category": "food",
+    "labels": [
+      "italian",
+      "pizza"
+    ]
+  },
+  {
+    "name": "CHOI",
+    "address": "Fehrbelliner Str. 4, 10119 Berlin",
+    "geo": [
+      52.531012399999994,
+      13.4103055
+    ],
+    "id": "/g/11fhr0tmfw",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "I due forni",
+    "address": "Schönhauser Allee 12, 10119 Berlin",
+    "geo": [
+      52.5308535,
+      13.4125762
+    ],
+    "id": "/g/1td6lpjf",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Wen Cheng",
+    "address": "Schönhauser Allee 10, 10119 Berlin",
+    "geo": [
+      52.530721199999995,
+      13.4117515
+    ],
+    "id": "/g/11t7m1nsq3",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "bang bang noodles",
+    "address": "Mehringdamm 51, 10961 Berlin",
+    "geo": [
+      52.4915829,
+      13.3876026
+    ],
+    "id": "/g/11lctdn9s8",
+    "category": "food",
+    "labels": [
+      "noodles",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Tacos El Rey",
+    "address": "Graefestraße 92, 10967 Berlin",
+    "geo": [
+      52.495011399999996,
+      13.419528699999999
+    ],
+    "id": "/g/11wbjg0gy0",
+    "category": "food",
+    "labels": [
+      "mexican"
+    ]
+  },
+  {
+    "name": "Fukagawa Ramen",
+    "address": "Wörther Str. 22, 10405 Berlin",
+    "geo": [
+      52.535615799999995,
+      13.421145899999999
+    ],
+    "id": "/g/11y3pbw9rt",
+    "category": "food",
+    "labels": [
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Piccolo e Semplice",
+    "address": "Metzer Str. 2, 10405 Berlin",
+    "geo": [
+      52.531974999999996,
+      13.4140011
+    ],
+    "id": "/g/11l_57txwd",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Duo Sicilian Ice Cream",
+    "address": "Skalitzer Str. 82, 10997 Berlin",
+    "geo": [
+      52.5006767,
+      13.4388173
+    ],
+    "id": "/g/11c14xd2bj",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Ho Vang",
+    "address": "Rosa-Luxemburg-Straße 17, 10178 Berlin",
+    "geo": [
+      52.525085,
+      13.410269099999999
+    ],
+    "id": "/g/11btxccwz3",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Sardinen Bar",
+    "address": "Grunewaldstraße 79, 10823 Berlin",
+    "geo": [
+      52.4897663,
+      13.353889599999999
+    ],
+    "id": "/g/11c1xg1wtk",
+    "category": "food",
+    "labels": [
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "NOVEMBER Brasserie",
+    "address": "Husemannstraße 15, 10435 Berlin",
+    "geo": [
+      52.5382129,
+      13.4173715
+    ],
+    "id": "/g/11s2x_0n2h",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Izakaya WATAPAS",
+    "address": "Bötzowstraße 33, 10407 Berlin",
+    "geo": [
+      52.5320949,
+      13.4344811
+    ],
+    "id": "/g/11dzx3gxqj",
+    "category": "food",
+    "labels": [
+      "japanese"
+    ]
+  },
+  {
+    "name": "Rhinoçéros",
+    "address": "Rhinower Str. 3, 10437 Berlin",
+    "geo": [
+      52.548052399999996,
+      13.410129999999999
+    ],
+    "id": "/g/11f1wb00s0",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "simsim levantine eatery",
+    "address": "Husemannstraße 1, 10435 Berlin",
+    "geo": [
+      52.536895699999995,
+      13.4169018
+    ],
+    "id": "/g/11f6xzsmy8",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Xi Mian Hand-Pulled Noodles",
+    "address": "Invalidenstraße 159, 10115 Berlin",
+    "geo": [
+      52.5323978,
+      13.3973829
+    ],
+    "id": "/g/11vxxy_p7z",
+    "category": "food",
+    "labels": [
+      "noodles",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Rüyam Gemüse Kebab 2",
+    "address": "Schönhauser Allee 44A, 10435 Berlin",
+    "geo": [
+      52.5405338,
+      13.412581399999999
+    ],
+    "id": "/g/11cm0k677w",
+    "category": "food",
+    "labels": [
+      "kebab",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Magic John’s Pizza",
+    "address": "Oranienburger Str. 48, 10117 Berlin",
+    "geo": [
+      52.526142899999996,
+      13.3889663
+    ],
+    "id": "/g/11j65mjnbq",
+    "category": "food",
+    "labels": [
+      "italian",
+      "pizza"
+    ]
+  },
+  {
+    "name": "Jane & the Jam",
+    "address": "Brunnenstraße 27, 10119 Berlin",
+    "geo": [
+      52.5342087,
+      13.3987134
+    ],
+    "id": "/g/11wft234q3",
+    "category": "food",
+    "labels": [
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Café Chagall",
+    "address": "Kollwitzstraße 2, 10405 Berlin",
+    "geo": [
+      52.531358999999995,
+      13.412662399999999
+    ],
+    "id": "/g/1vzg189_",
+    "category": "drinks",
+    "labels": [
+      "cafe",
+      "bar"
+    ]
+  },
+  {
+    "name": "FABELEI Cocktailbar",
+    "address": "Kyffhäuserstraße 21, 10781 Berlin",
+    "geo": [
+      52.4935729,
+      13.352074
+    ],
+    "id": "/g/11gwlcbwqs",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Material",
+    "address": "Schönhauser Allee 156, 10435 Berlin",
+    "geo": [
+      52.5374098,
+      13.4119067
+    ],
+    "id": "/g/11sjvvhs88",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "k_eins - authentic wine & craft beer",
+    "address": "Kopenhagener Str. 1, 10437 Berlin",
+    "geo": [
+      52.5488563,
+      13.4128888
+    ],
+    "id": "/g/11mwkxmgy_",
+    "category": "drinks",
+    "labels": [
+      "wine-bar"
+    ]
+  },
+  {
+    "name": "Blarney Irish Pub",
+    "address": "Methfesselstraße 4, 10965 Berlin",
+    "geo": [
+      52.4895036,
+      13.3853908
+    ],
+    "id": "/g/1tf27q26",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "James June Event GmbH",
+    "address": "Karl-Marx-Allee 93, 10243 Berlin",
+    "geo": [
+      52.517818399999996,
+      13.441442499999999
+    ],
+    "id": "/g/12hp58l1r",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "8greenbottles Naturwein-Shop Prenzlauer Berg",
+    "address": "Senefelderstraße 34, 10437 Berlin",
+    "geo": [
+      52.5401342,
+      13.4217433
+    ],
+    "id": "/g/11fkqb93d_",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Pawn Dot Com Bar",
+    "address": "Torstraße 164, 10115 Berlin",
+    "geo": [
+      52.528931199999995,
+      13.396170099999999
+    ],
+    "id": "/g/11pawn_dot_com",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Zollpackhof",
+    "address": "Elisabeth-Abegg-Straße 1, 10557 Berlin",
+    "geo": [
+      52.5213107,
+      13.3668981
+    ],
+    "id": "/g/1tf8635t",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Protokoll Taproom",
+    "address": "Boxhagener Str. 110, 10245 Berlin",
+    "geo": [
+      52.5131501,
+      13.457066099999999
+    ],
+    "id": "/g/11d_bbc075",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "BrewDog Berlin Friedrichshain",
+    "address": "Frankfurter Tor 7, 10243 Berlin",
+    "geo": [
+      52.5151262,
+      13.4543454
+    ],
+    "id": "/g/11qh4rjtkp",
+    "category": "drinks",
+    "labels": [
+      "brewery",
+      "bar"
+    ]
+  },
+  {
+    "name": "Lois",
+    "address": "Linienstraße 60, 10119 Berlin",
+    "geo": [
+      52.5288687,
+      13.4053975
+    ],
+    "id": "/g/11bxf42cs8",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "An einem Sonntag im August",
+    "address": "Kastanienallee 103, 10435 Berlin",
+    "geo": [
+      52.539963099999994,
+      13.4115024
+    ],
+    "id": "/g/1tcvn9cz",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "HERMAN Belgian Bar",
+    "address": "Schönhauser Allee 173, 10119 Berlin",
+    "geo": [
+      52.532404899999996,
+      13.412158
+    ],
+    "id": "/g/11xgf6c78",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Noble Rot Weinbar",
+    "address": "Gärtnerstraße 6, 10245 Berlin",
+    "geo": [
+      52.5093683,
+      13.4603392
+    ],
+    "id": "/g/11f40px5fv",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Bellboy Bar",
+    "address": "Anton-Wilhelm-Amo-Straße 30, 10117 Berlin",
+    "geo": [
+      52.512158899999996,
+      13.392056199999999
+    ],
+    "id": "/g/11rrqg1tk0",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Murphy’s Irish Pub",
+    "address": "Schiffbauerdamm 1, 10117 Berlin",
+    "geo": [
+      52.5223503,
+      13.387353899999999
+    ],
+    "id": "/g/1hc0x8kk6",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "BrewDog DogTap Berlin",
+    "address": "Im Marienpark 23, 12107 Berlin",
+    "geo": [
+      52.4379123,
+      13.3689856
+    ],
+    "id": "/g/11h7nbq70c",
+    "category": "drinks",
+    "labels": [
+      "brewery",
+      "bar"
+    ]
+  },
+  {
+    "name": "Prater Beer Garden",
+    "address": "Kastanienallee 7-9, 10435 Berlin",
+    "geo": [
+      52.540099,
+      13.4097855
+    ],
+    "id": "/g/1td_466y",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Manifest Taproom",
+    "address": "Oderberger Str. 15, 10435 Berlin",
+    "geo": [
+      52.5393294,
+      13.4084481
+    ],
+    "id": "/g/11hkh852xj",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "the wash bar",
+    "address": "Brunnenstraße 163, 10119 Berlin",
+    "geo": [
+      52.534215499999995,
+      13.3979286
+    ],
+    "id": "/g/11tj7l_mqy",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Buck and Breck",
+    "address": "Brunnenstraße 177, 10119 Berlin",
+    "geo": [
+      52.5321302,
+      13.398945699999999
+    ],
+    "id": "/g/11b7d_98xr",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Bar Milano",
+    "address": "Brunnenstraße 11, 10119 Berlin",
+    "geo": [
+      52.5313179,
+      13.4001501
+    ],
+    "id": "/g/11b7c60gjt",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "LOST MY VOICE Bar - Breakfast, Barsnacks, Wine and Drinks",
+    "address": "Rosenthaler Str. 1, 10119 Berlin",
+    "geo": [
+      52.529376899999995,
+      13.4013288
+    ],
+    "id": "/g/11n875r516",
+    "category": "drinks",
+    "labels": [
+      "bar",
+      "wine-bar"
+    ]
+  },
+  {
+    "name": "ZOE Bar",
+    "address": "Große Präsidentenstraße 6-7, 10178 Berlin",
+    "geo": [
+      52.5230484,
+      13.400854599999999
+    ],
+    "id": "/g/11cly89bb6",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Biererei Bar & Vintage Cellar",
+    "address": "Oranienstraße 185, 10999 Berlin",
+    "geo": [
+      52.500657,
+      13.421101
+    ],
+    "id": "/g/11gfnght8d",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "KASCHK by BRLO",
+    "address": "Linienstraße 40, 10119 Berlin",
+    "geo": [
+      52.528402299999996,
+      13.4099641
+    ],
+    "id": "/g/11b66hmr2_",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Biermeisterei by Lemke - Brauerei, BBQ, Grill Restaurant",
+    "address": "Karl-Liebknecht-Str. 13, 10178 Berlin",
+    "geo": [
+      52.5225596,
+      13.4079375
+    ],
+    "id": "/g/11ql1_wpxt",
+    "category": "drinks",
+    "labels": [
+      "bbq",
+      "bar"
+    ]
+  },
+  {
+    "name": "Mr. Susan",
+    "address": "Krausnickstraße 1, 10115 Berlin",
+    "geo": [
+      52.524429999999995,
+      13.3958008
+    ],
+    "id": "/g/11f66d5cyr",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Melody Nelson bar",
+    "address": "Hannoversche Str. 2, 10115 Berlin",
+    "geo": [
+      52.527119,
+      13.385626799999999
+    ],
+    "id": "/g/12j1lx8f7",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Reingold Bar",
+    "address": "Novalisstraße 11, 10115 Berlin",
+    "geo": [
+      52.5286494,
+      13.3883137
+    ],
+    "id": "/g/1td0420_",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Patesô Bar",
+    "address": "Novalisstraße 2, 10115 Berlin",
+    "geo": [
+      52.5281223,
+      13.389087799999999
+    ],
+    "id": "/g/11rhcdhl8h",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Allan's ABC",
+    "address": "Rykestraße 13, 10405 Berlin",
+    "geo": [
+      52.536479199999995,
+      13.4209021
+    ],
+    "id": "/g/11bwym8rcw",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Valla Vino",
+    "address": "Lychener Str. 3, 10437 Berlin",
+    "geo": [
+      52.5411266,
+      13.414295099999999
+    ],
+    "id": "/g/11ny201537",
+    "category": "drinks",
+    "labels": [
+      "wine-bar"
+    ]
+  },
+  {
+    "name": "KROM",
+    "address": "Winsstraße 9, 10405 Berlin",
+    "geo": [
+      52.532119699999996,
+      13.4240981
+    ],
+    "id": "/g/11c6q8bkcd",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Restaurant Keyser Soze - Berlin",
+    "address": "Tucholskystraße 33, 10117 Berlin",
+    "geo": [
+      52.526244899999995,
+      13.3934932
+    ],
+    "id": "/g/1tdb_p7b",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Sorsi e Morsi",
+    "address": "Marienburger Str. 10, 10405 Berlin",
+    "geo": [
+      52.534501,
+      13.4248537
+    ],
+    "id": "/g/1tmg5kx1",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Minoa | Café & Buchhandlung",
+    "address": "Rykestraße 52, 10405 Berlin",
+    "geo": [
+      52.535306399999996,
+      13.419314199999999
+    ],
+    "id": "/g/11w22bs9lt",
+    "category": "drinks",
+    "labels": [
+      "cafe",
+      "bar"
+    ]
+  },
+  {
+    "name": "Wax On Bar",
+    "address": "Weserstr. 208, 12047 Berlin",
+    "geo": [
+      52.4881756,
+      13.4298614
+    ],
+    "id": "/g/11p5n7vv0n",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Truffle Pig Bar",
+    "address": "Reuterstraße 47, 12047 Berlin",
+    "geo": [
+      52.4900611,
+      13.428838599999999
+    ],
+    "id": "/g/11h6ngfpp3",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "BrewDog Berlin Mitte",
+    "address": "Ackerstraße 29, 10115 Berlin",
+    "geo": [
+      52.5328331,
+      13.3957108
+    ],
+    "id": "/g/11cs3n89tc",
+    "category": "drinks",
+    "labels": [
+      "brewery",
+      "bar"
+    ]
+  },
+  {
+    "name": "The Castle Berlin Mitte",
+    "address": "Invalidenstraße 129, 10115 Berlin",
+    "geo": [
+      52.531499999999994,
+      13.388499999999999
+    ],
+    "id": "/g/1tfl8pjm",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Kirk Bar",
+    "address": "Skalitzer Str. 75, 10997 Berlin",
+    "geo": [
+      52.5009029,
+      13.440415499999999
+    ],
+    "id": "/g/1tgxh2hs",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Suspiria Bar",
+    "address": "Bergmannstraße 104, 10961 Berlin",
+    "geo": [
+      52.4900126,
+      13.389017599999999
+    ],
+    "id": "/g/11vk14htm0",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "Rhinoçéros",
+    "address": "Rhinower Str. 3, 10437 Berlin",
+    "geo": [
+      52.548052399999996,
+      13.410129999999999
+    ],
+    "id": "/g/11f1wb00s0",
+    "category": "drinks",
+    "labels": [
+      "bar"
+    ]
+  },
+  {
+    "name": "solide - Café & Bar",
+    "address": "Seelower Str. 4, 10439 Berlin",
+    "geo": [
+      52.5511439,
+      13.410630699999999
+    ],
+    "id": "/g/11vyxx2p9y",
+    "category": "drinks",
+    "labels": [
+      "bar",
+      "cafe"
+    ]
+  },
+  {
+    "name": "Bekarei GmbH Café",
+    "address": "Dunckerstraße 23, 10437 Berlin",
+    "geo": [
+      52.544317199999995,
+      13.4226478
+    ],
+    "id": "/g/1tg_8ht2",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Material",
+    "address": "Schönhauser Allee 156, 10435 Berlin",
+    "geo": [
+      52.5374098,
+      13.4119067
+    ],
+    "id": "/g/11sjvvhs88",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Teeraum Sanvian",
+    "address": "Winsstraße 58, 10405 Berlin",
+    "geo": [
+      52.533767499999996,
+      13.4250023
+    ],
+    "id": "/g/11wx70snbh",
+    "category": "coffee",
+    "labels": [
+      "tea"
+    ]
+  },
+  {
+    "name": "Town Mouse Coffee",
+    "address": "Marienburger Str. 5, 10405 Berlin",
+    "geo": [
+      52.5349971,
+      13.4234504
+    ],
+    "id": "/g/11nmppbbml",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "luuv café",
+    "address": "Dunckerstraße 72, 10437 Berlin",
+    "geo": [
+      52.544306,
+      13.422106399999999
+    ],
+    "id": "/g/11vrkw5y3p",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "tigertörtchen Café - Berlin Cupcakes",
+    "address": "Chausseestraße 60, 10115 Berlin",
+    "geo": [
+      52.536693199999995,
+      13.3758424
+    ],
+    "id": "/g/11gf8h4l_k",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Coffee Fellows - Kaffee, Bagels, Frühstück",
+    "address": "Hilda-Geiringer-Weg 8, 10557 Berlin",
+    "geo": [
+      52.526765399999995,
+      13.371832399999999
+    ],
+    "id": "/g/11j0rf05p6",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Impala Coffee",
+    "address": "Schönhauser Allee 173, 10119 Berlin",
+    "geo": [
+      52.532537299999994,
+      13.4121698
+    ],
+    "id": "/g/1261tktfv",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "OOH! Cookies",
+    "address": "Dorotheenstraße 43, 10117 Berlin",
+    "geo": [
+      52.518633699999995,
+      13.3888733
+    ],
+    "id": "/g/11s0s4jkkm",
+    "category": "coffee",
+    "labels": [
+      "dessert",
+      "cafe"
+    ]
+  },
+  {
+    "name": "The Barn Café Nordbahnhof",
+    "address": "Invalidenstraße 112, 10115 Berlin",
+    "geo": [
+      52.5305834,
+      13.383665299999999
+    ],
+    "id": "/g/11hz01k_8p",
+    "category": "coffee",
+    "labels": [
+      "bar",
+      "cafe"
+    ]
+  },
+  {
+    "name": "MarcAnn's",
+    "address": "Invalidenstraße 114, 10115 Berlin",
+    "geo": [
+      52.5306911,
+      13.3842847
+    ],
+    "id": "/g/1xb2clmr",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Oslo Kaffebar",
+    "address": "Eichendorffstraße 13, 10115 Berlin",
+    "geo": [
+      52.530989399999996,
+      13.3867522
+    ],
+    "id": "/g/11g_m79rj",
+    "category": "coffee",
+    "labels": [
+      "bar",
+      "cafe"
+    ]
+  },
+  {
+    "name": "WIM Kaffee",
+    "address": "Sonnenburger Str. 68, 10437 Berlin",
+    "geo": [
+      52.5482947,
+      13.4079347
+    ],
+    "id": "/g/11c3k6jjxz",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Princess Cheesecake",
+    "address": "Tucholskystraße 37, 10117 Berlin",
+    "geo": [
+      52.5267962,
+      13.3931759
+    ],
+    "id": "/g/1pw3xtdtl",
+    "category": "coffee",
+    "labels": [
+      "dessert",
+      "cafe"
+    ]
+  },
+  {
+    "name": "Coffee Fellows - Kaffee, Bagels, Frühstück",
+    "address": "Pappelallee 1, 10437 Berlin",
+    "geo": [
+      52.5411559,
+      13.4127789
+    ],
+    "id": "/g/11c1t5lrz7",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Exclusive Coffee Heidestraße",
+    "address": "Heidestraße 11, 10557 Berlin",
+    "geo": [
+      52.531005099999994,
+      13.368212
+    ],
+    "id": "/g/11jcnrkz9w",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Möge Tee",
+    "address": "Bergmannstraße 110, 10961 Berlin",
+    "geo": [
+      52.4901537,
+      13.3877589
+    ],
+    "id": "/g/11vhcn8d1_",
+    "category": "coffee",
+    "labels": [
+      "tea"
+    ]
+  },
+  {
+    "name": "Brotmeisterei Steinecke",
+    "address": "Kieler Str. 4-5, 10115 Berlin",
+    "geo": [
+      52.534112799999996,
+      13.370350199999999
+    ],
+    "id": "/g/11b6qf5vw6",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Refinery High End Coffee",
+    "address": "Albrechtstraße 11B, 10117 Berlin",
+    "geo": [
+      52.5213117,
+      13.3849173
+    ],
+    "id": "/g/11b7ffjvz0",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Espresso House",
+    "address": "Chausseestraße 22, 10115 Berlin",
+    "geo": [
+      52.5307812,
+      13.3830818
+    ],
+    "id": "/g/11fn9jf48j",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Tadshikische Teestube",
+    "address": "Oranienburger Str. 27, 10117 Berlin",
+    "geo": [
+      52.525151099999995,
+      13.3951503
+    ],
+    "id": "/g/1hhmsj81g",
+    "category": "coffee",
+    "labels": [
+      "tea"
+    ]
+  },
+  {
+    "name": "Café Fleury",
+    "address": "Weinbergsweg 20, 10119 Berlin",
+    "geo": [
+      52.5312115,
+      13.4022405
+    ],
+    "id": "/g/1tdqskr7",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "Daluma",
+    "address": "Weinbergsweg 3, 10119 Berlin",
+    "geo": [
+      52.5305432,
+      13.4022013
+    ],
+    "id": "/g/11b5wgbt6j",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "café gentil",
+    "address": "Heinrich-Roller-Straße 27, 10405 Berlin",
+    "geo": [
+      52.531661199999995,
+      13.4208325
+    ],
+    "id": "/g/11wmvw0dkg",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  },
+  {
+    "name": "DER KEKS",
+    "address": "Sredzkistraße 52, 10405 Berlin",
+    "geo": [
+      52.537907499999996,
+      13.4204543
+    ],
+    "id": "/g/11vf9zn5bx",
+    "category": "coffee",
+    "labels": [
+      "cafe"
+    ]
+  }
+]
